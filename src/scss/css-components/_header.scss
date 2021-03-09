@@ -1,0 +1,124 @@
+/* header-start */
+
+.container_header-top {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 15px;
+    min-height: 140px;
+    max-width: 1140px;
+}
+
+.container_header-bottom {
+    margin: 0 auto;
+    padding: 0 15px;
+    min-height: 777px;
+    max-width: 1140px;
+}
+
+.header {
+    margin: 0 auto;
+    min-height: 917px;
+    max-width: 1440px;
+    background: url("../img/header-image.jpg") top no-repeat;
+
+    &__logo {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        margin-right: auto;
+        margin-bottom: 28px;
+        text-decoration: none;
+        color: $white-main;
+
+        &-top {
+            padding-bottom: 8px;
+            font-weight: 700;
+            font-size: 32px;
+        }
+
+        &-bottom {
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 25px;
+        }
+    }
+
+    &__phone {
+        margin-right: 92px;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 22px;
+        line-height: 27px;
+        text-decoration: none;
+        color: $white-main;
+    }
+
+    &__translate-buttons {
+        display: flex;
+        justify-content: space-between;
+        min-width: 210px;
+    }
+
+    &__translate-button {
+        border: 0;
+        padding: 0;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 32px;
+        text-transform: uppercase;
+        color: $white-main;
+        background-color: transparent;
+        cursor: pointer;
+
+        &_active {
+            font-weight: 500;
+            text-decoration: underline;
+        }
+    }
+
+    &__title {
+        margin: 0;
+        padding-top: 162px;
+        padding-bottom: 35px;
+        max-width: 753px;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 54px;
+        line-height: 72px;
+        color: $white-main;
+    }
+
+    &__text {
+        padding-bottom: 62px;
+        max-width: 560px;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 42px;
+        color: $white-main;
+    }
+}
+
+.button-subscribe {
+    border: 0;
+    padding: 0;
+    min-width: 270px;
+    min-height: 55px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $white-main;
+    background-color: #235350;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    cursor: pointer;
+
+    &:hover {
+        background-color: #032e2b;
+        transition: 0.3s;
+    }
+}
+
+/* header-end */

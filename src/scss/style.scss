@@ -1,0 +1,51 @@
+@import "vars";
+@import "fonts";
+
+/* * {
+    outline: 1px solid #000;
+} */
+
+body {
+    /* hide google translation panel start */
+
+    top: 0 !important;
+
+    /* hide google translation panel end */
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+/* hide google translation panel start */
+
+.skiptranslate {
+    display: none;
+    height: 0;
+}
+
+.goog-text-highlight {
+    box-shadow: none !important;
+    box-sizing: inherit !important;
+    background-color: inherit !important;
+}
+
+#goog-gt-tt {
+    display: none !important;
+}
+
+/* hide google translation panel end */
+
+@import "./css-components/header";
+@import "./css-components/footer";
+
+.js-focus-visible :focus:not(.focus-visible) {
+    outline: none;
+}
+
+@import "media";

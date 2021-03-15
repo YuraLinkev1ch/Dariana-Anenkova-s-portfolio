@@ -11,6 +11,30 @@ html(lang="ru")
         link(rel="stylesheet" href="css/style.css")
     body
         include pug-partials/header.pug
+        main.main
+            .container
+                section.main-section.main-section1
+                    h2.main-section__title.main-section1__title Давай прогуляемся вместо скучной фотосессии?
+                    .main-section__card.main-section1__card1
+                        img.main-section__card-photo.main-section1__card1-photo(src="./img//main-section1__card-photo2.jpg", srcset="./img/main-section1__card-photo2@2x.jpg 2x", alt="photo")
+                        h3.main-section__card-first-name.main-section1__card1-first-name Бхуми
+                        h3.main-section__card-location.main-section1__card1-location Раджастан
+                    .main-section__card.main-section1__card2
+                        img.main-section__card-photo.main-section1__card2-photo(src="./img/main-section1__card-photo1.jpg", srcset="./img/main-section1__card-photo1@2x.jpg 2x", alt="photo")
+                        h3.main-section__card-first-name.main-section1__card2-first-name Саша и Майя
+                        h3.main-section__card-location.main-section1__card2-location Днепр
+                    .main-section__block.main-section1__block1
+                        h4.main-section__block-title.main-section1__block1-title Забудь про позирование
+                        .main-section__block-text.main-section1__block1-text Мы будем общаться и сохраним твою искренность, уникальную мимику и жесты.
+                    .main-section__block.main-section1__block2
+                        h4.main-section__block-title.main-section1__block2-title Просто будь собой 
+                        .main-section__block-text.main-section1__block2-text Мы можем весело и интересно провести время и запечатлеть твои живые эмоции при общении с любимыми людьми и семьей.
+                    .main-section__card.main-section1__card3
+                        img.main-section__card-photo.main-section1__card3-photo(src="./img/main-section1__card-photo3.jpg", srcset="./img/main-section1__card-photo3@2x.jpg 2x", alt="photo")
+                        h3.main-section__card-first-name.main-section1__card3-first-name Алина
+                        h3.main-section__card-location.main-section1__card3-location Днепр
+                    .main-section__button.main-section1__button
+                        button.button-subscribe записаться
         include pug-partials/footer.pug
     script(src="js/vendor.js")
     script(src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js")

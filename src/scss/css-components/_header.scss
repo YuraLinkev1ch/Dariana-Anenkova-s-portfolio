@@ -12,13 +12,15 @@
 .container_header-bottom {
     margin: 0 auto;
     padding: 0 15px;
-    min-height: 777px;
+
+    /* min-height: 777px; */
+
     max-width: 1140px;
 }
 
 .header {
     margin: 0 auto;
-    min-height: 917px;
+    min-height: 900px;
     max-width: 1440px;
     background: url("../img/header-image.jpg") top no-repeat;
 
@@ -79,36 +81,39 @@
 
     &__title {
         margin: 0;
-        padding-top: 162px;
+        padding-top: 150px;
         padding-bottom: 35px;
         max-width: 753px;
         font-weight: 700;
         font-style: normal;
         font-size: 54px;
         line-height: 72px;
+        letter-spacing: 4px;
         color: $white-main;
     }
 
     &__text {
-        padding-bottom: 62px;
-        max-width: 560px;
+        padding-bottom: 55px;
+        max-width: 590px;
         font-weight: 400;
         font-style: normal;
         font-size: 30px;
         line-height: 42px;
+        letter-spacing: 2px;
         color: $white-main;
     }
 }
 
 .button-subscribe {
     border: 0;
+    border-radius: 5px;
     padding: 0;
     min-width: 270px;
     min-height: 55px;
     font-weight: 700;
     font-size: 16px;
     line-height: 19.5px;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: $white-main;
     background-color: #235350;

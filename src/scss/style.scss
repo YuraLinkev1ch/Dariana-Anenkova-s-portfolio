@@ -19,6 +19,7 @@ body {
 }
 
 .container {
+    margin: 0 auto;
     max-width: 1440px;
 }
 
@@ -42,6 +43,124 @@ body {
 /* hide google translation panel end */
 
 @import "./css-components/header";
+
+/* main-start */
+
+.main {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+/* main-section1 start */
+
+.main-section {
+    padding-top: 120px;
+
+    &__title {
+        margin: 0;
+        padding-bottom: 45px;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 62px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: $black-main;
+    }
+
+    &__card {
+        padding-bottom: 55px;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 20px;
+        color: $gray1;
+
+        &-photo {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        &-first-name {
+            margin: 0;
+            padding-top: 17px;
+            font-weight: 400;
+        }
+
+        &-location {
+            margin: 0;
+            padding-top: 2px;
+            font-weight: 700;
+        }
+    }
+
+    &__block {
+        padding-bottom: 48px;
+        font-weight: 400;
+        font-style: normal;
+        color: $gray1;
+
+        &-title {
+            margin: 0;
+            padding-bottom: 14px;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 45px;
+            letter-spacing: 2px;
+        }
+
+        &-text {
+            max-width: 530px;
+            font-size: 18px;
+            line-height: 30px;
+        }
+    }
+}
+
+.main-section1 {
+    display: grid;
+    grid-column-gap: 117px;
+    grid-template: auto / 560px 460px;
+    grid-template-areas:
+    "title card1"
+    "card2 card1"
+    "card2 block1"
+    "card2 card3"
+    "block2 card3"
+    "button-subscribe card3";
+
+    &__title {
+        grid-area: title;
+    }
+
+    &__card1 {
+        grid-area: card1;
+    }
+
+    &__block1 {
+        grid-area: block1;
+    }
+
+    &__card2 {
+        grid-area: card2;
+    }
+
+    &__block2 {
+        grid-area: block2;
+    }
+
+    &__card3 {
+        grid-area: card3;
+    }
+
+    &__button {
+        grid-area: button-subscribe;
+    }
+}
+
+/* main-section1 end */
+
+/* main-end */
+
 @import "./css-components/footer";
 
 .js-focus-visible :focus:not(.focus-visible) {

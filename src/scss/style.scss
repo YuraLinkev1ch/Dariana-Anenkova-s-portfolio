@@ -157,6 +157,54 @@ body {
     }
 }
 
+.main-section2 {
+    display: grid;
+    grid-template: auto auto auto auto 190px auto auto / 368px 115px 97px 560px;
+    grid-template-areas:
+    "title . card1 card1"
+    "block1 . card1 card1"
+    "card2 . card1 card1"
+    "card2 . . block2"
+    "card2 . . card3"
+    "block3 block3 . card3"
+    "button-subscribe . . card3";
+
+    &__title {
+        grid-area: title;
+    }
+
+    &__card1 {
+        grid-area: card1;
+    }
+
+    &__block1 {
+        grid-area: block1;
+    }
+
+    &__card2 {
+        grid-area: card2;
+        padding-bottom: 0;
+    }
+
+    &__block2 {
+        grid-area: block2;
+        max-width: 410px;
+    }
+
+    &__card3 {
+        grid-area: card3;
+        padding-bottom: 0;
+    }
+
+    &__block3 {
+        grid-area: block3;
+    }
+
+    &__button {
+        grid-area: button-subscribe;
+    }
+}
+
 /* main-section1 end */
 
 /* main-end */

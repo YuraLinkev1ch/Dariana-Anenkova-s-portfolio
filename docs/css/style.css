@@ -232,6 +232,30 @@ body {
   .main-section1__button {
     grid-area: button-subscribe; }
 
+.main-section2 {
+  display: grid;
+  grid-template: auto auto auto auto 190px auto auto / 368px 115px 97px 560px;
+  grid-template-areas: "title . card1 card1" "block1 . card1 card1" "card2 . card1 card1" "card2 . . block2" "card2 . . card3" "block3 block3 . card3" "button-subscribe . . card3"; }
+  .main-section2__title {
+    grid-area: title; }
+  .main-section2__card1 {
+    grid-area: card1; }
+  .main-section2__block1 {
+    grid-area: block1; }
+  .main-section2__card2 {
+    grid-area: card2;
+    padding-bottom: 0; }
+  .main-section2__block2 {
+    grid-area: block2;
+    max-width: 410px; }
+  .main-section2__card3 {
+    grid-area: card3;
+    padding-bottom: 0; }
+  .main-section2__block3 {
+    grid-area: block3; }
+  .main-section2__button {
+    grid-area: button-subscribe; }
+
 /* main-section1 end */
 /* main-end */
 .js-focus-visible :focus:not(.focus-visible) {
@@ -303,6 +327,18 @@ body {
     grid-template: auto/minmax(330px, 500px);
     grid-template-areas: "title" "card1" "block1" "card2" "block2" "card3" "button-subscribe";
     padding-top: 60px; } }
+
+/* main-section1 end */
+/* main-section1 start */
+@media (max-width: 1180px) {
+  .main-section2 {
+    display: grid;
+    justify-content: center;
+    grid-template: auto/minmax(330px, 500px);
+    grid-template-areas: "title" "card1" "block1" "card2" "block2" "card3" "block3" "button-subscribe";
+    padding-top: 60px; }
+    .main-section2__card2, .main-section2__card3 {
+      padding-bottom: 55px; } }
 
 /* main-section1 end */
 /* main-end */

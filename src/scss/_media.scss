@@ -111,4 +111,31 @@
 
 /* main-section1 end */
 
+/* main-section1 start */
+
+@media (max-width: 1180px) {
+    .main-section2 {
+        display: grid;
+        justify-content: center;
+        grid-template: auto / minmax(330px, 500px);
+        grid-template-areas:
+        "title"
+        "card1"
+        "block1"
+        "card2"
+        "block2"
+        "card3"
+        "block3"
+        "button-subscribe";
+        padding-top: 60px;
+
+        &__card2,
+        &__card3 {
+            padding-bottom: 55px;
+        }
+    }
+}
+
+/* main-section1 end */
+
 /* main-end */

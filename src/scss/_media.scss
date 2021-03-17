@@ -111,7 +111,7 @@
 
 /* main-section1 end */
 
-/* main-section1 start */
+/* main-section2 start */
 
 @media (max-width: 1180px) {
     .main-section2 {
@@ -136,6 +136,24 @@
     }
 }
 
-/* main-section1 end */
+/* main-section2 end */
+
+/* main-section3 start */
+
+@media (max-width: 1180px) {
+    .main-section3 {
+        display: grid;
+        justify-content: center;
+        grid-template: auto / minmax(330px, 500px);
+        grid-template-areas:
+        "title"
+        "about-me"
+        "card1"
+        "card2";
+        padding-top: 60px;
+    }
+}
+
+/* main-section3 end */
 
 /* main-end */

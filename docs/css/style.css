@@ -232,6 +232,8 @@ body {
   .main-section1__button {
     grid-area: button-subscribe; }
 
+/* main-section1 end */
+/* main-section2 start */
 .main-section2 {
   display: grid;
   grid-template: auto auto auto auto 190px auto auto / 368px 115px 97px 560px;
@@ -256,7 +258,71 @@ body {
   .main-section2__button {
     grid-area: button-subscribe; }
 
-/* main-section1 end */
+/* main-section2 end */
+/* main-section3 start */
+.main-section3 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: auto / 365px 365px 365px;
+  grid-template-areas: "title title ." "about-me card1 card2"; }
+  .main-section3__title {
+    grid-area: title;
+    padding-bottom: 27px;
+    max-width: 600px; }
+  .main-section3__about-me {
+    grid-area: about-me;
+    padding-bottom: 88px; }
+    .main-section3__about-me-photo {
+      padding-bottom: 48px;
+      width: 200px;
+      height: 200px; }
+    .main-section3__about-me-title {
+      margin: 0;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 30px;
+      line-height: 40px;
+      letter-spacing: 2px; }
+    .main-section3__about-me-name {
+      margin: 0;
+      padding-bottom: 15px;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 30px;
+      line-height: 40px;
+      letter-spacing: 2px; }
+    .main-section3__about-me-text {
+      margin: 0;
+      padding-bottom: 26px;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 1px;
+      color: #333; }
+    .main-section3__about-me-text2 {
+      margin: 0;
+      padding-bottom: 22px;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 1px;
+      color: #333; }
+    .main-section3__about-me-link {
+      display: inline-block;
+      margin-right: 32px;
+      width: 25px;
+      height: 25px; }
+    .main-section3__about-me-svg {
+      width: 25px;
+      height: 25px; }
+  .main-section3__card1 {
+    grid-area: card1; }
+  .main-section3__card2 {
+    grid-area: card2; }
+
+/* main-section3 end */
 /* main-end */
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none; }
@@ -329,7 +395,7 @@ body {
     padding-top: 60px; } }
 
 /* main-section1 end */
-/* main-section1 start */
+/* main-section2 start */
 @media (max-width: 1180px) {
   .main-section2 {
     display: grid;
@@ -340,7 +406,17 @@ body {
     .main-section2__card2, .main-section2__card3 {
       padding-bottom: 55px; } }
 
-/* main-section1 end */
+/* main-section2 end */
+/* main-section3 start */
+@media (max-width: 1180px) {
+  .main-section3 {
+    display: grid;
+    justify-content: center;
+    grid-template: auto/minmax(330px, 500px);
+    grid-template-areas: "title" "about-me" "card1" "card2";
+    padding-top: 60px; } }
+
+/* main-section3 end */
 /* main-end */
 
 /*# sourceMappingURL=style.css.map */

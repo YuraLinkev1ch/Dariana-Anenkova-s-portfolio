@@ -61,6 +61,33 @@ html(lang="ru")
                         h3.main-section__card-location.main-section2__card3-location Днепр
                     .main-section__button.main-section2__button
                         button.button-subscribe записаться
+
+                section.main-section.main-section3 
+                    h2.main-section__title.main-section3__title Помогу подобрать образ и место съёмки
+                    .main-section3__about-me
+                        img.main-section3__about-me-photo(src="./img/main-section3__about-me-photo.png", srcset="./img/main-section3__about-me-photo@2x.png 2x" alt="photo")
+                        h3.main-section3__about-me-title Привет, меня зовут 
+                        h3.main-section3__about-me-name Дарьяна Аненкова
+                        p.main-section3__about-me-text Я занимаюсь фотографией более 10 лет и до сих пор не получила ни одного недовольного клиента. 
+                        p.main-section3__about-me-text2 Пишите, буду рада пообщаться. 
+                        a.main-section3__about-me-link(href="#")
+                            svg.main-section3__about-me-svg
+                                use(xlink:href="img/sprite.svg#about-me-instagram")
+                        a.main-section3__about-me-link(href="#")
+                            svg.main-section3__about-me-svg
+                                use(xlink:href="img/sprite.svg#about-me-facebook")
+                        a.main-section3__about-me-link(href="#")
+                            svg.main-section3__about-me-svg
+                                use(xlink:href="img/sprite.svg#about-me-telegram")
+                    .main-section__card.main-section3__card1
+                        img.main-section__card-photo.main-section3__card1-photo(src="./img/main-section3__card-photo1.jpg", srcset="./img/main-section3__card-photo1@2x.jpg 2x", alt="photo")
+                        h3.main-section__card-first-name.main-section3__card1-first-name Алёна и Амина
+                        h3.main-section__card-location.main-section2__card3-location Днепр
+                    .main-section__card.main-section3__card2
+                        img.main-section__card-photo.main-section3__card2-photo(src="./img/main-section3__card-photo2.jpg", srcset="./img/main-section3__card-photo2@2x.jpg 2x", alt="photo")
+                        h3.main-section__card-first-name.main-section3__card2-first-name Саша и Майя
+                        h3.main-section__card-location.main-section3__card2-location Днепр
+                    
         include pug-partials/footer.pug
     script(src="js/vendor.js")
     script(src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js")

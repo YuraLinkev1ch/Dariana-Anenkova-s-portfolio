@@ -156,4 +156,30 @@
 
 /* main-section3 end */
 
+/* main-section4 start */
+
+@media (max-width: 1180px) {
+    .main-section4 {
+        display: grid;
+        justify-content: center;
+        grid-template: auto / minmax(330px, 500px);
+        grid-template-areas:
+        "block1"
+        "subscribe-button"
+        "card1"
+        "card2";
+        padding-top: 0;
+
+        &__card1 {
+            padding-top: 40px;
+        }
+
+        &__card2 {
+            padding-top: 0;
+        }
+    }
+}
+
+/* main-section4 end */
+
 /* main-end */

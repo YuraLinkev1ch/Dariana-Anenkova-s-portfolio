@@ -101,10 +101,10 @@ body {
 
         &-title {
             margin: 0;
-            padding-bottom: 14px;
+            padding-bottom: 17px;
             font-weight: 400;
             font-size: 30px;
-            line-height: 45px;
+            line-height: 34px;
             letter-spacing: 2px;
         }
 
@@ -301,6 +301,71 @@ body {
 }
 
 /* main-section3 end */
+
+/* main-section4 start */
+
+.main-section4 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template: auto / 560px 558px;
+    grid-template-areas:
+    "block1 card1"
+    "subscribe-button card1"
+    "card2 card1";
+    padding-top: 0;
+
+    &__block1 {
+        grid-area: block1;
+        padding-bottom: 35px;
+    }
+
+    &__card1 {
+        grid-area: card1;
+    }
+
+    &__card2 {
+        display: grid;
+        grid-area: card2;
+        grid-column-gap: 20px;
+        grid-template-areas:
+        "photo1 photo1 photo1"
+        "photo2 photo3 photo4"
+        "first-name first-name first-name"
+        "location location location";
+        padding-top: 40px;
+
+        &-photo1 {
+            grid-area: photo1;
+            padding-bottom: 20px;
+        }
+
+        &-photo2 {
+            grid-area: photo2;
+        }
+
+        &-photo3 {
+            grid-area: photo3;
+        }
+
+        &-photo4 {
+            grid-area: photo4;
+        }
+
+        &-first-name {
+            grid-area: first-name;
+        }
+
+        &-location {
+            grid-area: location;
+        }
+    }
+
+    &__button {
+        grid-area: subscribe-button;
+    }
+}
+
+/* main-section4 end */
 
 /* main-end */
 

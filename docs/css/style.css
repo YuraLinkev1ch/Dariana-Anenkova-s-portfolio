@@ -202,10 +202,10 @@ body {
     color: #333; }
     .main-section__block-title {
       margin: 0;
-      padding-bottom: 14px;
+      padding-bottom: 17px;
       font-weight: 400;
       font-size: 30px;
-      line-height: 45px;
+      line-height: 34px;
       letter-spacing: 2px; }
     .main-section__block-text {
       max-width: 530px;
@@ -323,6 +323,41 @@ body {
     grid-area: card2; }
 
 /* main-section3 end */
+/* main-section4 start */
+.main-section4 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: auto / 560px 558px;
+  grid-template-areas: "block1 card1" "subscribe-button card1" "card2 card1";
+  padding-top: 0; }
+  .main-section4__block1 {
+    grid-area: block1;
+    padding-bottom: 35px; }
+  .main-section4__card1 {
+    grid-area: card1; }
+  .main-section4__card2 {
+    display: grid;
+    grid-area: card2;
+    grid-column-gap: 20px;
+    grid-template-areas: "photo1 photo1 photo1" "photo2 photo3 photo4" "first-name first-name first-name" "location location location";
+    padding-top: 40px; }
+    .main-section4__card2-photo1 {
+      grid-area: photo1;
+      padding-bottom: 20px; }
+    .main-section4__card2-photo2 {
+      grid-area: photo2; }
+    .main-section4__card2-photo3 {
+      grid-area: photo3; }
+    .main-section4__card2-photo4 {
+      grid-area: photo4; }
+    .main-section4__card2-first-name {
+      grid-area: first-name; }
+    .main-section4__card2-location {
+      grid-area: location; }
+  .main-section4__button {
+    grid-area: subscribe-button; }
+
+/* main-section4 end */
 /* main-end */
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none; }
@@ -417,6 +452,20 @@ body {
     padding-top: 60px; } }
 
 /* main-section3 end */
+/* main-section4 start */
+@media (max-width: 1180px) {
+  .main-section4 {
+    display: grid;
+    justify-content: center;
+    grid-template: auto/minmax(330px, 500px);
+    grid-template-areas: "block1" "subscribe-button" "card1" "card2";
+    padding-top: 0; }
+    .main-section4__card1 {
+      padding-top: 40px; }
+    .main-section4__card2 {
+      padding-top: 0; } }
+
+/* main-section4 end */
 /* main-end */
 
 /*# sourceMappingURL=style.css.map */

@@ -358,6 +358,35 @@ body {
     grid-area: subscribe-button; }
 
 /* main-section4 end */
+/* main-section5 start */
+.main-section5 {
+  display: grid;
+  grid-template: 40px 123px 191px 215px 60px 109px 337px 99px 63px 30px 79px 247px 19px 60px 30px 101px 99px 433px 174px / 367px 20px 76px 20px 77px 20px 173px 20px 367px;
+  grid-template-areas: "title title  title  title  title  title  title . ." "title title  title  title  title  title  title . card3" ". . . . card2 card2 card2  . card3" "card1 card1 card1 . card2 card2 card2 . card3" "card1 card1 card1 . card2 card2 card2 . ." "card1 card1 card1 . . . . . ." "card1 card1 card1 . card4 card4 card4 card4 card4" ". . . . card4 card4 card4 card4 card4" "card5 . . . card4 card4 card4 card4 card4" "card5 . . . . . . . ." "card5 . . . . . . . card7" "card5 . card6 card6 card6 card6 card6 . card7" "card5 . card6 card6 card6 card6 card6 . ." "card5 . card6 card6 card6 card6 card6 . ." "card5 . . . . . . . ." "card5 . . . . . card9 card9 card9" ". . . . . . card9 card9 card9" "card8 card8 card8 card8 card8 . card9 card9 card9" ". . . . . . card9 card9 card9";
+  padding-top: 65px; }
+  .main-section5__title {
+    grid-area: title;
+    max-width: 610px; }
+  .main-section5__card1 {
+    grid-area: card1; }
+  .main-section5__card2 {
+    grid-area: card2; }
+  .main-section5__card3 {
+    grid-area: card3; }
+  .main-section5__card4 {
+    grid-area: card4; }
+  .main-section5__card5 {
+    grid-area: card5; }
+  .main-section5__card6 {
+    grid-area: card6; }
+  .main-section5__card7 {
+    grid-area: card7; }
+  .main-section5__card8 {
+    grid-area: card8; }
+  .main-section5__card9 {
+    grid-area: card9; }
+
+/* main-section5 end */
 /* main-end */
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none; }
@@ -466,6 +495,17 @@ body {
       padding-top: 0; } }
 
 /* main-section4 end */
+/* main-section5 start */
+@media (max-width: 1180px) {
+  .main-section5 {
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-template: auto / 1fr 1fr 1fr;
+    grid-template-areas: "title title title" "card1 card2 card3" "card4 card4 card4" "card6 card6 card6" "card5 card7 card7" "card8 card8 card9";
+    padding-top: 60px; } }
+
+/* main-section5 end */
 /* main-end */
 
 /*# sourceMappingURL=style.css.map */

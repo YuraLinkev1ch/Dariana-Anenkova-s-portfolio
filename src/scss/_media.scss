@@ -182,4 +182,25 @@
 
 /* main-section4 end */
 
+/* main-section5 start */
+
+@media (max-width: 1180px) {
+    .main-section5 {
+        display: grid;
+        justify-content: center;
+        grid-column-gap: 20px;
+        grid-template: auto / 1fr 1fr 1fr;
+        grid-template-areas:
+        "title title title"
+        "card1 card2 card3"
+        "card4 card4 card4"
+        "card6 card6 card6"
+        "card5 card7 card7"
+        "card8 card8 card9";
+        padding-top: 60px;
+    }
+}
+
+/* main-section5 end */
+
 /* main-end */

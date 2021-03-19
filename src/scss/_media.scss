@@ -198,6 +198,10 @@
         "card5 card7 card7"
         "card8 card8 card9";
         padding-top: 60px;
+
+        &__title {
+            justify-self: center;
+        }
     }
 }
 

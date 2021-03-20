@@ -339,19 +339,25 @@ body {
     display: grid;
     grid-area: card2;
     grid-column-gap: 20px;
-    grid-template-areas: "photo1 photo1 photo1" "photo2 photo3 photo4" "first-name first-name first-name" "location location location";
+    grid-template: 401px  20px 261px / 1fr 1fr;
+    grid-template-areas: "photo1 photo1 photo1" ". . ." "photo2 photo3 photo4" "first-name first-name first-name" "location location location";
     padding-top: 40px; }
     .main-section4__card2-photo1 {
       grid-area: photo1;
-      padding-bottom: 20px; }
+      padding-bottom: 20px;
+      height: 100%; }
     .main-section4__card2-photo2 {
-      grid-area: photo2; }
+      grid-area: photo2;
+      height: 100%; }
     .main-section4__card2-photo3 {
-      grid-area: photo3; }
+      grid-area: photo3;
+      height: 100%; }
     .main-section4__card2-photo4 {
-      grid-area: photo4; }
+      grid-area: photo4;
+      height: 100%; }
     .main-section4__card2-first-name {
-      grid-area: first-name; }
+      grid-area: first-name;
+      height: 100%; }
     .main-section4__card2-location {
       grid-area: location; }
   .main-section4__button {
@@ -387,6 +393,75 @@ body {
     grid-area: card9; }
 
 /* main-section5 end */
+/* main-section6 start */
+.main-section6 {
+  display: grid;
+  grid-template-areas: "title" "block1" "gallery1" "block2" "gallery2" "button";
+  padding-top: 120px; }
+  .main-section6__title {
+    grid-area: title;
+    max-width: 800px; }
+  .main-section6__block1 {
+    grid-area: block1; }
+    .main-section6__block1-title {
+      line-height: 45px; }
+  .main-section6__gallery1 {
+    display: grid;
+    grid-area: gallery1;
+    grid-column-gap: 20px;
+    grid-template: 490px 20px 39px 20px 185px 20px 41px 20px 245px / 1fr 1fr 1fr;
+    grid-template-areas: "photo1 photo2 photo3" "...... photo2 photo3" "photo4 photo2 photo3" "photo4 ..... ......." "photo4 photo6 photo7" "...... photo6 photo7" "photo5 photo6 photo7" "photo5 photo6 ......" "photo5 photo6 photo8"; }
+    .main-section6__gallery1-photo1 {
+      grid-area: photo1;
+      height: 100%; }
+    .main-section6__gallery1-photo2 {
+      grid-area: photo2;
+      height: 100%; }
+    .main-section6__gallery1-photo3 {
+      grid-area: photo3;
+      height: 100%; }
+    .main-section6__gallery1-photo4 {
+      grid-area: photo4;
+      height: 100%; }
+    .main-section6__gallery1-photo5 {
+      grid-area: photo5;
+      height: 100%; }
+    .main-section6__gallery1-photo6 {
+      grid-area: photo6;
+      height: 100%; }
+    .main-section6__gallery1-photo7 {
+      grid-area: photo7;
+      height: 100%; }
+    .main-section6__gallery1-photo8 {
+      grid-area: photo8;
+      height: 100%; }
+  .main-section6__gallery2 {
+    display: grid;
+    grid-area: gallery2;
+    grid-column-gap: 20px;
+    grid-template: 549px / 1fr 1fr 1fr;
+    grid-template-areas: "photo1 photo2 photo3"; }
+    .main-section6__gallery2-photo1 {
+      grid-area: photo1;
+      height: 100%; }
+    .main-section6__gallery2-photo2 {
+      grid-area: photo2;
+      height: 100%; }
+    .main-section6__gallery2-photo3 {
+      grid-area: photo3;
+      height: 100%; }
+  .main-section6__block2 {
+    grid-area: block2;
+    padding-top: 27px;
+    padding-bottom: 62px;
+    max-width: 900px; }
+    .main-section6__block2-title {
+      line-height: 45px; }
+  .main-section6__button {
+    justify-self: center;
+    grid-area: button; }
+
+/* main-section6 end */
 /* main-end */
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none; }
@@ -508,6 +583,21 @@ body {
       justify-self: center; } }
 
 /* main-section5 end */
+/* main-section6 start */
+@media (max-width: 1180px) {
+  .main-section6 {
+    display: grid;
+    justify-content: center;
+    padding-top: 60px; }
+    .main-section6__title {
+      justify-self: center; }
+    .main-section6__block2 {
+      max-width: 100%; }
+    .main-section6__gallery2 {
+      grid-template: 250px / 1fr 1fr 1fr;
+      grid-template-areas: "photo1 photo2 photo3"; } }
+
+/* main-section6 end */
 /* main-end */
 
 /*# sourceMappingURL=style.css.map */

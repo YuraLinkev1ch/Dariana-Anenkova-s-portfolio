@@ -327,8 +327,10 @@ body {
         display: grid;
         grid-area: card2;
         grid-column-gap: 20px;
+        grid-template: 401px  20px 261px / 1fr 1fr;
         grid-template-areas:
         "photo1 photo1 photo1"
+        ". . ."
         "photo2 photo3 photo4"
         "first-name first-name first-name"
         "location location location";
@@ -337,22 +339,27 @@ body {
         &-photo1 {
             grid-area: photo1;
             padding-bottom: 20px;
+            height: 100%;
         }
 
         &-photo2 {
             grid-area: photo2;
+            height: 100%;
         }
 
         &-photo3 {
             grid-area: photo3;
+            height: 100%;
         }
 
         &-photo4 {
             grid-area: photo4;
+            height: 100%;
         }
 
         &-first-name {
             grid-area: first-name;
+            height: 100%;
         }
 
         &-location {
@@ -437,6 +444,131 @@ body {
 }
 
 /* main-section5 end */
+
+/* main-section6 start */
+
+.main-section6 {
+    display: grid;
+    grid-template-areas:
+    "title"
+    "block1"
+    "gallery1"
+    "block2"
+    "gallery2"
+    "button";
+    padding-top: 120px;
+
+    &__title {
+        grid-area: title;
+        max-width: 800px;
+    }
+
+    &__block1 {
+        grid-area: block1;
+
+        &-title {
+            line-height: 45px;
+        }
+    }
+
+    &__gallery1 {
+        display: grid;
+        grid-area: gallery1;
+        grid-column-gap: 20px;
+        grid-template: 490px 20px 39px 20px 185px 20px 41px 20px 245px / 1fr 1fr 1fr;
+        grid-template-areas:
+        "photo1 photo2 photo3"
+        "...... photo2 photo3"
+        "photo4 photo2 photo3"
+        "photo4 ..... ......."
+        "photo4 photo6 photo7"
+        "...... photo6 photo7"
+        "photo5 photo6 photo7"
+        "photo5 photo6 ......"
+        "photo5 photo6 photo8";
+
+        &-photo1 {
+            grid-area: photo1;
+            height: 100%;
+        }
+
+        &-photo2 {
+            grid-area: photo2;
+            height: 100%;
+        }
+
+        &-photo3 {
+            grid-area: photo3;
+            height: 100%;
+        }
+
+        &-photo4 {
+            grid-area: photo4;
+            height: 100%;
+        }
+
+        &-photo5 {
+            grid-area: photo5;
+            height: 100%;
+        }
+
+        &-photo6 {
+            grid-area: photo6;
+            height: 100%;
+        }
+
+        &-photo7 {
+            grid-area: photo7;
+            height: 100%;
+        }
+
+        &-photo8 {
+            grid-area: photo8;
+            height: 100%;
+        }
+    }
+
+    &__gallery2 {
+        display: grid;
+        grid-area: gallery2;
+        grid-column-gap: 20px;
+        grid-template: 549px / 1fr 1fr 1fr;
+        grid-template-areas: "photo1 photo2 photo3";
+
+        &-photo1 {
+            grid-area: photo1;
+            height: 100%;
+        }
+
+        &-photo2 {
+            grid-area: photo2;
+            height: 100%;
+        }
+
+        &-photo3 {
+            grid-area: photo3;
+            height: 100%;
+        }
+    }
+
+    &__block2 {
+        grid-area: block2;
+        padding-top: 27px;
+        padding-bottom: 62px;
+        max-width: 900px;
+
+        &-title {
+            line-height: 45px;
+        }
+    }
+
+    &__button {
+        justify-self: center;
+        grid-area: button;
+    }
+}
+
+/* main-section6 end */
 
 /* main-end */
 

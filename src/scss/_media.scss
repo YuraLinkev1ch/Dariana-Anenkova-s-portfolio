@@ -76,7 +76,7 @@
         padding-top: 60px;
 
         &__title {
-            font-size: 35px;
+            font-size: 32px;
             line-height: 45px;
             letter-spacing: 1px;
             text-align: center;
@@ -231,5 +231,63 @@
 }
 
 /* main-section6 end */
+
+/* main-section7 start */
+
+@media (max-width: 1180px) {
+    .main-section7 {
+        display: grid;
+        justify-content: center;
+        grid-template: auto / minmax(330px, 700px);
+        grid-template-areas:
+        "title"
+        "block1"
+        "wedding-photography"
+        "lifestory-photography";
+        padding-top: 60px;
+
+        &__title {
+            justify-self: center;
+        }
+
+        &__wedding-photography {
+            display: grid;
+            justify-content: center;
+            grid-area: wedding-photography;
+            grid-template: 120px auto 49px 45px 169px 55px / auto;
+            grid-template-areas:
+            "service"
+            "photo"
+            "work-time"
+            "cost"
+            "text"
+            "button";
+            padding-bottom: 60px;
+        }
+
+        &__lifestory-photography {
+            display: grid;
+            justify-content: center;
+            grid-area: lifestory-photography;
+            grid-column-gap: 2%;
+            grid-template: auto auto auto 49px 169px 55px  / 1fr 1fr 1fr;
+            grid-template-areas:
+            "service service service"
+            "photo1 photo2 photo3"
+            "work-time work-time work-time"
+            "cost cost cost"
+            "text text text"
+            "button button button";
+            padding-bottom: 60px;
+
+            &-service {
+                line-height: 50px;
+                text-transform: none;
+        }
+        }
+    }
+}
+
+/* main-section7 end */
 
 /* main-end */

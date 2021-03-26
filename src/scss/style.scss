@@ -570,6 +570,169 @@ body {
 
 /* main-section6 end */
 
+/* main-section7 start */
+
+.main-section7 {
+    display: grid;
+    grid-template: auto auto 558px 672px / auto;
+    grid-template-areas:
+    "title"
+    "block1"
+    "wedding-photography"
+    "lifestory-photography";
+    padding-top: 120px;
+
+    &__title {
+        grid-area: title;
+        max-width: 1000px;
+    }
+
+    &__block1 {
+        grid-area: block1;
+
+        &-title {
+            line-height: 45px;
+        }
+
+        &-text {
+            max-width: 550px;
+        }
+    }
+
+    &__service {
+        margin: 0;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 40px;
+        line-height: 50px;
+        letter-spacing: 3px;
+        color: $black-main;
+    }
+
+    &__work-time {
+        margin: 0;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 50px;
+        letter-spacing: 3px;
+        color: $gray1;
+    }
+
+    &__cost {
+        margin: 0;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 36px;
+        line-height: 50px;
+        color: $black-main;
+    }
+
+    &__text {
+        margin: 0;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: $gray1;
+    }
+
+    &__wedding-photography {
+        display: grid;
+        grid-area: wedding-photography;
+        grid-column-gap: 22px;
+        grid-template: 120px 49px 45px 169px 55px / 656px 460px;
+        grid-template-areas:
+        "photo service"
+        "photo work-time"
+        "photo cost"
+        "photo text"
+        "photo button";
+        padding-bottom: 120px;
+
+        &-photo {
+            grid-area: photo;
+        }
+
+        &-service {
+            grid-area: service;
+            max-width: 250px;
+        }
+
+        &-work-time {
+            grid-area: work-time;
+        }
+
+        &-cost {
+            grid-area: cost;
+        }
+
+        &-text {
+            grid-area: text;
+            max-width: 250px;
+        }
+
+        &-button {
+            grid-area: button;
+        }
+    }
+
+    &__lifestory-photography {
+        display: grid;
+        grid-area: lifestory-photography;
+        grid-template: 278px 27px 25px 44px 123px 55px / 369px 17px 366px 20px 367px;
+        grid-template-areas:
+        "service . photo1 . photo2"
+        "work-time . . . photo2"
+        "work-time . photo3 . photo2"
+        "cost . photo3 . photo2"
+        "text . photo3 . photo2"
+        "button . photo3 . photo2";
+        padding-bottom: 120px;
+
+        &-photo1 {
+            grid-area: photo1;
+        }
+
+        &-photo2 {
+            grid-area: photo2;
+        }
+
+        &-photo3 {
+            grid-area: photo3;
+        }
+
+        &-service {
+            grid-area: service;
+            font-size: 40px;
+            line-height: 60px;
+            text-transform: uppercase;
+        }
+
+        &-work-time {
+            grid-area: work-time;
+        }
+
+        &-cost {
+            grid-area: cost;
+        }
+
+        &-text {
+            grid-area: text;
+        }
+
+        &-button {
+            grid-area: button;
+        }
+    }
+
+    &__bold-text {
+        font-weight: 700;
+    }
+}
+
+/* main-section7 end */
+
 /* main-end */
 
 @import "./css-components/footer";

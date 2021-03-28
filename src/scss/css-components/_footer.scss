@@ -1,0 +1,153 @@
+.footer {
+    margin: 0 auto;
+    min-height: 337px;
+    max-width: 1440px;
+    background-color: #1A1F13;
+
+    &__logo {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        margin-right: 72px;
+        text-decoration: none;
+        color: $white-main;
+
+        &-top {
+            padding-bottom: 2px;
+            font-weight: 700;
+            font-size: 32px;
+        }
+
+        &-bottom {
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 25px;
+            letter-spacing: 1px;
+        }
+    }
+
+    &__contacts {
+        display: grid;
+        align-self: flex-start;
+        grid-gap: 20px 30px;
+        grid-template: repeat(4, 1fr) / repeat(3, 25px) 1fr;
+        grid-template-areas:
+            "text text text text"
+            "email email email email"
+            "phone phone phone phone"
+            "telegram viber whatsapp .";
+        margin-right: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 37px;
+
+        &-text {
+            grid-area: text;
+            margin: 0;
+            font-weight: 700;
+            color: $white-main;
+        }
+
+        &-email {
+            grid-area: email;
+            text-decoration: none;
+            color: $white-main;
+        }
+
+        &-phone {
+            grid-area: phone;
+            text-decoration: none;
+            color: $white-main;
+        }
+
+        &-link_telegram {
+            grid-area: telegram;
+        }
+
+        &-link_viber {
+            grid-area: viber;
+        }
+
+        &-link_whatsapp {
+            grid-area: whatsapp;
+        }
+
+        &-link {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+        }
+
+        &-svg {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    &__portfolio {
+        display: grid;
+        align-self: flex-start;
+        grid-gap: 20px;
+        grid-template: repeat(2, 1fr) / repeat(3, 25px) 1fr;
+        grid-template-areas:
+            "text text text text"
+            "instagram facebook vkontakte .";
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 37px;
+
+        &-text {
+            grid-area: text;
+            margin: 0;
+            font-weight: 700;
+            color: $white-main;
+        }
+
+        &-link_instagram {
+            grid-area: instagram;
+        }
+
+        &-link_facebook {
+            grid-area: facebook;
+        }
+
+        &-link_vkontakte {
+            grid-area: vkontakte;
+        }
+
+        &-link {
+            display: inline-block;
+            width: 25px;
+            height: 25px;
+        }
+
+        &-svg {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    &__name {
+        padding-top: 40px;
+        width: 100%;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: $white-main;
+
+        &-author {
+            color: $white-main;
+        }
+    }
+}
+
+.container_footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 40px 15px 29px;
+    max-width: 1140px;
+}

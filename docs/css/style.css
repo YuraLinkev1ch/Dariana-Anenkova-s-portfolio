@@ -69,7 +69,6 @@ body {
 .container_header-bottom {
   margin: 0 auto;
   padding: 0 15px;
-  /* min-height: 777px; */
   max-width: 1140px; }
 
 .header {
@@ -84,7 +83,7 @@ body {
     margin-right: auto;
     margin-bottom: 28px;
     text-decoration: none;
-    color: #fff; }
+    color: #FFF; }
     .header__logo-top {
       padding-bottom: 8px;
       font-weight: 700;
@@ -100,7 +99,7 @@ body {
     font-size: 22px;
     line-height: 27px;
     text-decoration: none;
-    color: #fff; }
+    color: #FFF; }
   .header__translate-buttons {
     display: flex;
     justify-content: space-between;
@@ -112,7 +111,7 @@ body {
     font-size: 22px;
     line-height: 32px;
     text-transform: uppercase;
-    color: #fff;
+    color: #FFF;
     background-color: transparent;
     cursor: pointer; }
     .header__translate-button_active {
@@ -128,7 +127,7 @@ body {
     font-size: 54px;
     line-height: 72px;
     letter-spacing: 4px;
-    color: #fff; }
+    color: #FFF; }
   .header__text {
     padding-bottom: 55px;
     max-width: 590px;
@@ -137,7 +136,7 @@ body {
     font-size: 30px;
     line-height: 42px;
     letter-spacing: 2px;
-    color: #fff; }
+    color: #FFF; }
 
 .button-subscribe {
   border: 0;
@@ -150,12 +149,12 @@ body {
   line-height: 19.5px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #fff;
+  color: #FFF;
   background-color: #235350;
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
   cursor: pointer; }
   .button-subscribe:hover {
-    background-color: #032e2b;
+    background-color: #032E2B;
     transition: 0.3s; }
 
 /* header-end */
@@ -558,6 +557,110 @@ body {
 
 /* main-section7 end */
 /* main-end */
+.footer {
+  margin: 0 auto;
+  min-height: 337px;
+  max-width: 1440px;
+  background-color: #1A1F13; }
+  .footer__logo {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-right: 72px;
+    text-decoration: none;
+    color: #FFF; }
+    .footer__logo-top {
+      padding-bottom: 2px;
+      font-weight: 700;
+      font-size: 32px; }
+    .footer__logo-bottom {
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 25px;
+      letter-spacing: 1px; }
+  .footer__contacts {
+    display: grid;
+    align-self: flex-start;
+    grid-gap: 20px 30px;
+    grid-template: repeat(4, 1fr)/repeat(3, 25px) 1fr;
+    grid-template-areas: "text text text text" "email email email email" "phone phone phone phone" "telegram viber whatsapp .";
+    margin-right: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 37px; }
+    .footer__contacts-text {
+      grid-area: text;
+      margin: 0;
+      font-weight: 700;
+      color: #FFF; }
+    .footer__contacts-email {
+      grid-area: email;
+      text-decoration: none;
+      color: #FFF; }
+    .footer__contacts-phone {
+      grid-area: phone;
+      text-decoration: none;
+      color: #FFF; }
+    .footer__contacts-link_telegram {
+      grid-area: telegram; }
+    .footer__contacts-link_viber {
+      grid-area: viber; }
+    .footer__contacts-link_whatsapp {
+      grid-area: whatsapp; }
+    .footer__contacts-link {
+      display: inline-block;
+      width: 25px;
+      height: 25px; }
+    .footer__contacts-svg {
+      width: 25px;
+      height: 25px; }
+  .footer__portfolio {
+    display: grid;
+    align-self: flex-start;
+    grid-gap: 20px;
+    grid-template: repeat(2, 1fr)/repeat(3, 25px) 1fr;
+    grid-template-areas: "text text text text" "instagram facebook vkontakte .";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 37px; }
+    .footer__portfolio-text {
+      grid-area: text;
+      margin: 0;
+      font-weight: 700;
+      color: #FFF; }
+    .footer__portfolio-link_instagram {
+      grid-area: instagram; }
+    .footer__portfolio-link_facebook {
+      grid-area: facebook; }
+    .footer__portfolio-link_vkontakte {
+      grid-area: vkontakte; }
+    .footer__portfolio-link {
+      display: inline-block;
+      width: 25px;
+      height: 25px; }
+    .footer__portfolio-svg {
+      width: 25px;
+      height: 25px; }
+  .footer__name {
+    padding-top: 40px;
+    width: 100%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFF; }
+    .footer__name-author {
+      color: #FFF; }
+
+.container_footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 40px 15px 29px;
+  max-width: 1140px; }
+
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none; }
 
@@ -724,5 +827,50 @@ body {
 
 /* main-section7 end */
 /* main-end */
+/* footer-start */
+@media (max-width: 1000px) {
+  .container_footer {
+    display: flex;
+    flex-direction: column; }
+  .footer__logo {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 0;
+    margin-bottom: 60px; }
+    .footer__logo-top {
+      padding-bottom: 2px;
+      font-weight: 700;
+      font-size: 32px; }
+    .footer__logo-bottom {
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 25px;
+      letter-spacing: 1px; }
+  .footer__contacts {
+    display: grid;
+    align-self: center;
+    grid-template: repeat(4, 1fr)/1fr repeat(3, 25px) 1fr;
+    grid-template-areas: "text text text text text" "email email email email email" "phone phone phone phone phone" ". telegram viber whatsapp .";
+    margin-right: 0;
+    margin-bottom: 30px;
+    text-align: center; }
+  .footer__portfolio {
+    display: grid;
+    align-self: center;
+    grid-template: repeat(2, 1fr)/1fr repeat(3, 25px) 1fr;
+    grid-template-areas: "text text text text text" ". instagram facebook vkontakte .";
+    margin-bottom: 30px; }
+  .footer__name {
+    padding-top: 40px;
+    width: 100%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFF; } }
+
+/* footer-end */
 
 /*# sourceMappingURL=style.css.map */

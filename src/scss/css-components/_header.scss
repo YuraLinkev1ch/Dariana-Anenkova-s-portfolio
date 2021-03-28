@@ -12,9 +12,6 @@
 .container_header-bottom {
     margin: 0 auto;
     padding: 0 15px;
-
-    /* min-height: 777px; */
-
     max-width: 1140px;
 }
 
@@ -121,7 +118,7 @@
     cursor: pointer;
 
     &:hover {
-        background-color: #032e2b;
+        background-color: #032E2B;
         transition: 0.3s;
     }
 }

@@ -104,7 +104,7 @@ const scriptsBackend = () => {
 
 const resources = () => {
   return src('./src/resources/**')
-    .pipe(dest('./docs'))
+    .pipe(dest('./docs/resources'))
 }
 
 const fonts = () => {

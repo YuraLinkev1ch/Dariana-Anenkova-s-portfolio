@@ -34,7 +34,7 @@ html(lang="ru")
                         h3.main-section__card-first-name.main-section1__card3-first-name Алина
                         h3.main-section__card-location.main-section1__card3-location Днепр
                     .main-section__button.main-section1__button
-                        button.button-subscribe записаться
+                        button.button-subscribe(data-path="first") записаться
                 
                 section.main-section.main-section2 
                     h2.main-section__title.main-section2__title Предлагаю расслабиться и забыть про время 
@@ -60,7 +60,7 @@ html(lang="ru")
                         h3.main-section__card-first-name.main-section2__card3-first-name Тамара и Олег
                         h3.main-section__card-location.main-section2__card3-location Днепр
                     .main-section__button.main-section2__button
-                        button.button-subscribe записаться
+                        button.button-subscribe(data-path="first") записаться
 
                 section.main-section.main-section3 
                     h2.main-section__title.main-section3__title Помогу подобрать образ и место съёмки
@@ -93,7 +93,7 @@ html(lang="ru")
                         h4.main-section__block-title.main-section4__block1-title Решу за тебя все организационные вопросы
                         .main-section__block-text.main-section4__block1-text Я всегда открыта для обсуждения твоих идей, чтобы воплотить их наилучшим образом.
                     .main-section__button.main-section4__button
-                        button.button-subscribe записаться
+                        button.button-subscribe(data-path="first") записаться
                     .main-section__card.main-section4__card1
                         img.main-section__card-photo.main-section4__card1-photo(src="./img/main-section4__card1-photo1.jpg", srcset="./img/main-section3__card1-photo1@2x.jpg 2x", alt="photo")
                         h3.main-section__card-first-name.main-section4__card1-first-name Даша
@@ -163,7 +163,7 @@ html(lang="ru")
                         img.main-section__card-photo.main-section6__gallery2-photo2(src="./img/main-section6__gallery2-photo2.jpg", srcset="./img/main-section6__gallery2-photo2@2x.jpg 2x", alt="photo")
                         img.main-section__card-photo.main-section6__gallery2-photo3(src="./img/main-section6__gallery2-photo3.jpg", srcset="./img/main-section6__gallery2-photo3@2x.jpg 2x", alt="photo")
                     .main-section__button.main-section6__button
-                        button.button-subscribe записаться
+                        button.button-subscribe(data-path="first") записаться
                 
                 section.main-section.main-section7
                     h2.main-section__title.main-section7__title Если ты всегда мечтал о фотосессии, но боялся камеры - пиши мне и мы вместе решим эту проблему
@@ -185,12 +185,24 @@ html(lang="ru")
                         h4.main-section7__cost.main-section7__lifestory-photography-cost стоимость - $100
                         p.main-section7__text.main-section7__lifestory-photography-text *помогу с подбором образа и локации
                         .main-section__button.main-section7__lifestory-photography-button
-                            button.button-subscribe записаться
+                            button.button-subscribe(data-path="first") записаться
                         img.main-section__card-photo.main-section7__lifestory-photography-photo1(src="./img/main-section7__lifestory-photography-photo1.jpg", srcset="./img/main-section7__lifestory-photography-photo1@2x.jpg 2x", alt="photo")
                         img.main-section__card-photo.main-section7__lifestory-photography-photo2(src="./img/main-section7__lifestory-photography-photo2.jpg", srcset="./img/main-section7__lifestory-photography-photo2@2x.jpg 2x", alt="photo")
                         img.main-section__card-photo.main-section7__lifestory-photography-photo3(src="./img/main-section7__lifestory-photography-photo3.jpg", srcset="./img/main-section7__lifestory-photography-photo3@2x.jpg 2x", alt="photo")
         include pug-partials/footer.pug
-        
+        .modal
+            form#form.modal-form(data-target="first" method="POST" enctype="multipart/form-data" onsubmit="send(event, 'resources/send.php')")
+                button.modal-form__close &times;
+                h2.modal-form__title Запишитесь сегодня на  
+                span.modal-form__title-big-text фотосессию
+                input.modal-form__user-name(type="text" name="Имя" placeholder="Введите Ваше имя"  maxlength="30" ng-required)
+                input.modal-form__user-mail(type="email" name="Почта" placeholder="Введите Вашу почту" ng-required)
+                input.modal-form__user-tel(type="tel" name="Телефон" placeholder="+7 (___) ___-__-__" ng-required)
+                button.modal-form__submit(type="submit") Записаться на фотосессию
+                span.modal-form__text Ваши данные конфиденциальны
+        .success-modal 
+            span Заявка отправлена
+
     script(src="js/vendor.js")
     script(src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js")
     script(src="//translate.google.com/translate_a/element.js?cb=TranslateInit")

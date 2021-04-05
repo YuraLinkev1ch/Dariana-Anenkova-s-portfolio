@@ -39,5 +39,8 @@
     "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.18.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "fslightbox": "^3.2.3",
+    "inputmask": "^5.0.5"
+  }
 }

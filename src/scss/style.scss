@@ -23,6 +23,10 @@ body {
     max-width: 1440px;
 }
 
+:focus {
+    outline: 3px solid $red;
+}
+
 /* hide google translation panel start */
 
 .skiptranslate {
@@ -736,6 +740,36 @@ body {
 /* main-end */
 
 @import "./css-components/footer";
+@import "./css-components/modal-window";
+
+/* success-modal-start */
+
+.success-modal {
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    width: 260px;
+    min-height: 80px;
+    font-size: 25px;
+    text-align: center;
+    color: $white-main;
+    background-color: rgba($green-main, 0.9);
+    opacity: 0;
+	visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+
+    &_active {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 0.5s, visibility 0.5s;
+    }
+}
+
+/* success-modal-end */
 
 .js-focus-visible :focus:not(.focus-visible) {
     outline: none;

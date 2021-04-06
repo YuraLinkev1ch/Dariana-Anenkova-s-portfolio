@@ -115,11 +115,34 @@
     color: $white-main;
     background-color: $green-main;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    animation: heartBeat 6s ease-in-out infinite 6s;
     cursor: pointer;
 
     &:hover {
         background-color: #032E2B;
         transition: 0.3s;
+    }
+}
+
+@keyframes heartBeat {
+    0% {
+        transform: scale(1);
+    }
+
+    7% {
+        transform: scale(1.1);
+    }
+
+    14% {
+        transform: scale(1);
+    }
+
+    21% {
+        transform: scale(1.1);
+    }
+
+    35% {
+        transform: scale(1);
     }
 }
 

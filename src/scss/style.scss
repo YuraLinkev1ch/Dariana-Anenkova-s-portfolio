@@ -79,6 +79,10 @@ body {
         line-height: 20px;
         color: $gray1;
 
+        & > a {
+            display: contents;
+        }
+
         &-photo {
             width: 100%;
             object-fit: cover;
@@ -770,6 +774,14 @@ body {
 }
 
 /* success-modal-end */
+
+/* fix for fslightbox start */
+
+.fslightbox-open {
+    padding-right: 17px;
+}
+
+/* fix for fslightbox end */
 
 .js-focus-visible :focus:not(.focus-visible) {
     outline: none;

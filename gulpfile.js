@@ -113,7 +113,7 @@ const fonts = () => {
 }
 
 const images = () => {
-  return src(['./src/img/**.jpg', './src/img/**.png', './src/img/**.jpeg', './src/img/*.svg'])
+  return src(['./src/img/**'])
     .pipe(gulpif(isProd, image()))
     .pipe(dest('./docs/img'))
 };

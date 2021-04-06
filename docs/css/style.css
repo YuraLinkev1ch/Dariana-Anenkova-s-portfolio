@@ -185,6 +185,8 @@ body {
     font-size: 18px;
     line-height: 20px;
     color: #333; }
+    .main-section__card > a {
+      display: contents; }
     .main-section__card-photo {
       width: 100%;
       -o-object-fit: cover;
@@ -936,6 +938,11 @@ input:required {
     transition: opacity 0.5s, visibility 0.5s; }
 
 /* success-modal-end */
+/* fix for fslightbox start */
+.fslightbox-open {
+  padding-right: 17px; }
+
+/* fix for fslightbox end */
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none; }
 

@@ -240,9 +240,9 @@ wow = new WOW(
 	{
 	boxClass:     'wow',      // default
 	animateClass: 'animated', // default
-	offset:       500,          // default
+	offset:       300,          // default
 	mobile:       false,       // default
-	live:         true        // default
+	live:         false        // default
 }
 )
 wow.init();

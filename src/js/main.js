@@ -238,11 +238,11 @@ let disableScroll = function () {
 
 wow = new WOW(
 	{
-	boxClass:     'wow',      // default
-	animateClass: 'animated', // default
-	offset:       300,          // default
-	mobile:       false,       // default
-	live:         false        // default
+	boxClass:     'wow',      
+	animateClass: 'animated', 
+	offset:       300,          
+	mobile:       false,       
+	live:         false        
 }
 )
 wow.init();

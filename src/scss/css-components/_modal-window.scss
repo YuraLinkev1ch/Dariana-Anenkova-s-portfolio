@@ -77,12 +77,14 @@
             color: $black-main;
         }
 
-        &__user-name {
+        &__user-name,
+        &__user-mail,
+        &__user-tel {
             margin-bottom: 22px;
             border: 1px solid $black-main;
             border-radius: 10px;
+            padding: 6px 0;
             width: 268px;
-            min-height: 58px;
             font-size: 15px;
             line-height: 3.2;
             text-align: center;
@@ -97,44 +99,6 @@
 
             &:focus {
                 outline: 3px solid $red;
-            }
-        }
-
-        &__user-mail {
-            margin-bottom: 22px;
-            border: 1px solid  $green-main;
-            border-radius: 10px;
-            width: 268px;
-            min-height: 58px;
-            font-size: 15px;
-            line-height: 3.2;
-            text-align: center;
-            color: $black-main;
-
-            &::placeholder {
-                font-size: 15px;
-                line-height: 3.2;
-                text-align: center;
-                color: $gray1;
-            }
-        }
-
-        &__user-tel {
-            margin-bottom: 22px;
-            border: 1px solid  $green-main;
-            border-radius: 10px;
-            width: 268px;
-            min-height: 58px;
-            font-size: 15px;
-            line-height: 3.2;
-            text-align: center;
-            color: $black-main;
-
-            &::placeholder {
-                font-size: 15px;
-                line-height: 3.2;
-                text-align: center;
-                color: $gray1;
             }
         }
 
@@ -167,6 +131,10 @@
                 transform: translateX(-4em) skewX(-45deg);
                 animation: 5s linear 0s infinite normal none running;
                 animation-name: move-light;
+            }
+
+            &:focus {
+                outline: 3px solid $red;
             }
         }
 

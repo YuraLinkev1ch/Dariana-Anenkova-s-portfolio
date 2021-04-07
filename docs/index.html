@@ -249,9 +249,9 @@
       <form class="modal-form" id="form" data-target="first" method="POST" enctype="multipart/form-data" onsubmit="send(event, 'resources/send.php')">
         <button class="modal-form__close">&times;</button>
         <h2 class="modal-form__title">Запишитесь сегодня на  </h2><span class="modal-form__title-big-text">фотосессию</span>
-        <input class="modal-form__user-name" type="text" name="Имя" placeholder="Введите Ваше имя" maxlength="30" ng-required>
-        <input class="modal-form__user-mail" type="email" name="Почта" placeholder="Введите Вашу почту" ng-required>
-        <input class="modal-form__user-tel" type="tel" name="Телефон" placeholder="+7 (___) ___-__-__" ng-required>
+        <input class="modal-form__user-name" type="text" name="Имя" placeholder="Введите Ваше имя" maxlength="30" required>
+        <input class="modal-form__user-mail" type="email" name="Почта" placeholder="Введите Вашу почту" required>
+        <input class="modal-form__user-tel" type="tel" name="Телефон" placeholder="+7 (___) ___-__-__" required>
         <button class="modal-form__submit" type="submit">Записаться на фотосессию</button><span class="modal-form__text">Ваши данные конфиденциальны</span>
       </form>
     </div>

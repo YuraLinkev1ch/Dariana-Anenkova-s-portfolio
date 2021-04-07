@@ -52,7 +52,9 @@ body {
   height: 0; }
 
 .goog-text-highlight {
+  -webkit-box-shadow: none !important;
   box-shadow: none !important;
+  -webkit-box-sizing: inherit !important;
   box-sizing: inherit !important;
   background-color: inherit !important; }
 
@@ -62,7 +64,11 @@ body {
 /* hide google translation panel end */
 /* header-start */
 .container_header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin: 0 auto;
   padding: 0 15px;
@@ -80,8 +86,14 @@ body {
   max-width: 1440px;
   background: url("../img/header-image.jpg") top no-repeat; }
   .header__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-item-align: end;
     align-self: flex-end;
     margin-right: auto;
     margin-bottom: 28px;
@@ -104,7 +116,11 @@ body {
     text-decoration: none;
     color: #FFF; }
   .header__translate-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     min-width: 210px; }
   .header__translate-button {
@@ -154,36 +170,48 @@ body {
   text-transform: uppercase;
   color: #FFF;
   background-color: #235350;
+  -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
   filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
   -webkit-animation: heartBeat 6s ease-in-out infinite 6s;
   animation: heartBeat 6s ease-in-out infinite 6s;
   cursor: pointer; }
   .button-subscribe:hover {
     background-color: #032E2B;
+    -webkit-transition: 0.3s;
     transition: 0.3s; }
 
 @-webkit-keyframes heartBeat {
   0% {
+    -webkit-transform: scale(1);
     transform: scale(1); }
   7% {
+    -webkit-transform: scale(1.1);
     transform: scale(1.1); }
   14% {
+    -webkit-transform: scale(1);
     transform: scale(1); }
   21% {
+    -webkit-transform: scale(1.1);
     transform: scale(1.1); }
   35% {
+    -webkit-transform: scale(1);
     transform: scale(1); } }
 
 @keyframes heartBeat {
   0% {
+    -webkit-transform: scale(1);
     transform: scale(1); }
   7% {
+    -webkit-transform: scale(1.1);
     transform: scale(1.1); }
   14% {
+    -webkit-transform: scale(1);
     transform: scale(1); }
   21% {
+    -webkit-transform: scale(1.1);
     transform: scale(1.1); }
   35% {
+    -webkit-transform: scale(1);
     transform: scale(1); } }
 
 /* header-end */
@@ -594,8 +622,14 @@ body {
   max-width: 1440px;
   background-color: #1A1F13; }
   .footer__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-item-align: start;
     align-self: flex-start;
     margin-right: 72px;
     text-decoration: none;
@@ -686,7 +720,10 @@ body {
       color: #FFF; }
 
 .container_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 40px 15px 29px;
@@ -701,14 +738,21 @@ body {
   top: 0;
   bottom: 0;
   z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 100%;
   height: 100%;
   background-color: rgba(35, 83, 80, 0.58);
   opacity: 0;
   visibility: hidden;
+  -webkit-transition: opacity var(--transition-time), visibility var(--transition-time);
   transition: opacity var(--transition-time), visibility var(--transition-time); }
   .modal::before {
     content: "";
@@ -718,8 +762,15 @@ body {
   .modal-form {
     position: relative;
     display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     border-radius: 10px;
     padding: 40px 50px;
@@ -755,83 +806,43 @@ body {
       line-height: 2;
       text-transform: uppercase;
       color: #000; }
-    .modal-form__user-name {
+    .modal-form__user-name, .modal-form__user-mail, .modal-form__user-tel {
       margin-bottom: 22px;
       border: 1px solid #000;
       border-radius: 10px;
+      padding: 6px 0;
       width: 268px;
-      min-height: 58px;
       font-size: 15px;
       line-height: 3.2;
       text-align: center;
       color: #000; }
-      .modal-form__user-name::-moz-placeholder {
+      .modal-form__user-name::-webkit-input-placeholder, .modal-form__user-mail::-webkit-input-placeholder, .modal-form__user-tel::-webkit-input-placeholder {
         font-size: 15px;
         line-height: 3.2;
         text-align: center;
         color: #333; }
-      .modal-form__user-name:-ms-input-placeholder {
+      .modal-form__user-name::-moz-placeholder, .modal-form__user-mail::-moz-placeholder, .modal-form__user-tel::-moz-placeholder {
         font-size: 15px;
         line-height: 3.2;
         text-align: center;
         color: #333; }
-      .modal-form__user-name::placeholder {
+      .modal-form__user-name:-ms-input-placeholder, .modal-form__user-mail:-ms-input-placeholder, .modal-form__user-tel:-ms-input-placeholder {
         font-size: 15px;
         line-height: 3.2;
         text-align: center;
         color: #333; }
-      .modal-form__user-name:focus {
+      .modal-form__user-name::-ms-input-placeholder, .modal-form__user-mail::-ms-input-placeholder, .modal-form__user-tel::-ms-input-placeholder {
+        font-size: 15px;
+        line-height: 3.2;
+        text-align: center;
+        color: #333; }
+      .modal-form__user-name::placeholder, .modal-form__user-mail::placeholder, .modal-form__user-tel::placeholder {
+        font-size: 15px;
+        line-height: 3.2;
+        text-align: center;
+        color: #333; }
+      .modal-form__user-name:focus, .modal-form__user-mail:focus, .modal-form__user-tel:focus {
         outline: 3px solid #c54a4a; }
-    .modal-form__user-mail {
-      margin-bottom: 22px;
-      border: 1px solid #235350;
-      border-radius: 10px;
-      width: 268px;
-      min-height: 58px;
-      font-size: 15px;
-      line-height: 3.2;
-      text-align: center;
-      color: #000; }
-      .modal-form__user-mail::-moz-placeholder {
-        font-size: 15px;
-        line-height: 3.2;
-        text-align: center;
-        color: #333; }
-      .modal-form__user-mail:-ms-input-placeholder {
-        font-size: 15px;
-        line-height: 3.2;
-        text-align: center;
-        color: #333; }
-      .modal-form__user-mail::placeholder {
-        font-size: 15px;
-        line-height: 3.2;
-        text-align: center;
-        color: #333; }
-    .modal-form__user-tel {
-      margin-bottom: 22px;
-      border: 1px solid #235350;
-      border-radius: 10px;
-      width: 268px;
-      min-height: 58px;
-      font-size: 15px;
-      line-height: 3.2;
-      text-align: center;
-      color: #000; }
-      .modal-form__user-tel::-moz-placeholder {
-        font-size: 15px;
-        line-height: 3.2;
-        text-align: center;
-        color: #333; }
-      .modal-form__user-tel:-ms-input-placeholder {
-        font-size: 15px;
-        line-height: 3.2;
-        text-align: center;
-        color: #333; }
-      .modal-form__user-tel::placeholder {
-        font-size: 15px;
-        line-height: 3.2;
-        text-align: center;
-        color: #333; }
     .modal-form__submit {
       position: relative;
       vertical-align: middle;
@@ -857,11 +868,14 @@ body {
         width: 2.2em;
         height: 100%;
         background: rgba(255, 255, 255, 0.6);
+        -webkit-transform: translateX(-4em) skewX(-45deg);
         transform: translateX(-4em) skewX(-45deg);
         -webkit-animation: 5s linear 0s infinite normal none running;
         animation: 5s linear 0s infinite normal none running;
         -webkit-animation-name: move-light;
         animation-name: move-light; }
+      .modal-form__submit:focus {
+        outline: 3px solid #c54a4a; }
     .modal-form__text {
       font-weight: 300;
       font-size: 11px;
@@ -870,53 +884,75 @@ body {
 /* outline fix for mozilla */
 input:invalid,
 input:required {
+  -webkit-box-shadow: none;
   box-shadow: none; }
 
 @-webkit-keyframes move-light {
   0% {
+    -webkit-transform: translateX(-4em) skewX(-45deg);
     transform: translateX(-4em) skewX(-45deg); }
   10% {
+    -webkit-transform: translateX(13em) skewX(-45deg);
     transform: translateX(13em) skewX(-45deg); }
   20% {
+    -webkit-transform: translateX(100em) skewX(-45deg);
     transform: translateX(100em) skewX(-45deg); }
   100% {
+    -webkit-transform: translateX(100em) skewX(-45deg);
     transform: translateX(100em) skewX(-45deg); } }
 
 @keyframes move-light {
   0% {
+    -webkit-transform: translateX(-4em) skewX(-45deg);
     transform: translateX(-4em) skewX(-45deg); }
   10% {
+    -webkit-transform: translateX(13em) skewX(-45deg);
     transform: translateX(13em) skewX(-45deg); }
   20% {
+    -webkit-transform: translateX(100em) skewX(-45deg);
     transform: translateX(100em) skewX(-45deg); }
   100% {
+    -webkit-transform: translateX(100em) skewX(-45deg);
     transform: translateX(100em) skewX(-45deg); } }
 
 .is-open {
   opacity: 1;
   visibility: visible;
+  -webkit-transition: opacity var(--transition-time), visibility var(--transition-time);
   transition: opacity var(--transition-time), visibility var(--transition-time); }
 
 .modal-open {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .fade {
   opacity: 0;
+  -webkit-transition: opacity var(--transition-time);
   transition: opacity var(--transition-time); }
 
 .fade.animate-open {
   opacity: 1;
+  -webkit-transition: opacity var(--transition-time);
   transition: opacity var(--transition-time); }
 
 .fadeInUp {
   opacity: 0;
+  -webkit-transform: translateY(-100px);
   transform: translateY(-100px);
-  transition: opacity var(--transition-time), transform var(--transition-time); }
+  -webkit-transition: opacity var(--transition-time), -webkit-transform var(--transition-time);
+  transition: opacity var(--transition-time), -webkit-transform var(--transition-time);
+  transition: opacity var(--transition-time), transform var(--transition-time);
+  transition: opacity var(--transition-time), transform var(--transition-time), -webkit-transform var(--transition-time); }
 
 .fadeInUp.animate-open {
   opacity: 1;
+  -webkit-transform: translateY(0);
   transform: translateY(0);
-  transition: opacity var(--transition-time), transform var(--transition-time); }
+  -webkit-transition: opacity var(--transition-time), -webkit-transform var(--transition-time);
+  transition: opacity var(--transition-time), -webkit-transform var(--transition-time);
+  transition: opacity var(--transition-time), transform var(--transition-time);
+  transition: opacity var(--transition-time), transform var(--transition-time), -webkit-transform var(--transition-time); }
 
 .disable-scroll {
   position: fixed;
@@ -925,6 +961,7 @@ input:required {
   overflow: hidden;
   width: 100%;
   height: 100vh;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 @media (max-width: 460px) {
@@ -940,8 +977,14 @@ input:required {
   position: fixed;
   left: 30px;
   bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   border-radius: 13px;
   width: 260px;
@@ -952,10 +995,12 @@ input:required {
   background-color: rgba(35, 83, 80, 0.9);
   opacity: 0;
   visibility: hidden;
+  -webkit-transition: opacity 0.5s, visibility 0.5s;
   transition: opacity 0.5s, visibility 0.5s; }
   .success-modal_active {
     opacity: 1;
     visibility: visible;
+    -webkit-transition: opacity 0.5s, visibility 0.5s;
     transition: opacity 0.5s, visibility 0.5s; }
 
 /* success-modal-end */
@@ -977,11 +1022,19 @@ input:required {
 /* header-start */
 @media (max-width: 1000px) {
   .container_header-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     padding: 0; }
   .header__logo {
+    -ms-flex-item-align: center;
     align-self: center;
     margin: 30px 0; }
     .header__logo-bottom {
@@ -1005,8 +1058,15 @@ input:required {
     line-height: 1;
     text-align: center; }
   .container_header-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; } }
 
 /* header-end */
@@ -1029,6 +1089,8 @@ input:required {
 @media (max-width: 1180px) {
   .main-section1 {
     display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     grid-template: auto/minmax(330px, 500px);
     grid-template-areas: "title" "card1" "block1" "card2" "block2" "card3" "button-subscribe";
@@ -1039,6 +1101,8 @@ input:required {
 @media (max-width: 1180px) {
   .main-section2 {
     display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     grid-template: auto/minmax(330px, 500px);
     grid-template-areas: "title" "card1" "block1" "card2" "block2" "card3" "block3" "button-subscribe";
@@ -1051,6 +1115,8 @@ input:required {
 @media (max-width: 1180px) {
   .main-section3 {
     display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     grid-template: auto/minmax(330px, 500px);
     grid-template-areas: "title" "about-me" "card1" "card2";
@@ -1061,6 +1127,8 @@ input:required {
 @media (max-width: 1180px) {
   .main-section4 {
     display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     grid-template: auto/minmax(330px, 500px);
     grid-template-areas: "block1" "subscribe-button" "card1" "card2";
@@ -1075,6 +1143,8 @@ input:required {
 @media (max-width: 1180px) {
   .main-section5 {
     display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     grid-column-gap: 20px;
     grid-template: auto / 1fr 1fr 1fr;
@@ -1088,6 +1158,8 @@ input:required {
 @media (max-width: 1180px) {
   .main-section6 {
     display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     padding-top: 60px; }
     .main-section6__title {
@@ -1103,6 +1175,8 @@ input:required {
 @media (max-width: 1180px) {
   .main-section7 {
     display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     grid-template: auto/minmax(330px, 700px);
     grid-template-areas: "title" "block1" "wedding-photography" "lifestory-photography";
@@ -1111,6 +1185,8 @@ input:required {
       justify-self: center; }
     .main-section7__wedding-photography {
       display: grid;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
       grid-area: wedding-photography;
       grid-template: 120px auto 49px 45px 169px 55px / auto;
@@ -1118,6 +1194,8 @@ input:required {
       padding-bottom: 60px; }
     .main-section7__lifestory-photography {
       display: grid;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
       grid-area: lifestory-photography;
       grid-column-gap: 2%;
@@ -1133,11 +1211,22 @@ input:required {
 /* footer-start */
 @media (max-width: 1000px) {
   .container_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column; }
   .footer__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-item-align: center;
     align-self: center;
     margin-right: 0;
     margin-bottom: 60px; }

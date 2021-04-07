@@ -233,3 +233,18 @@ let disableScroll = function () {
 	window.scroll({ top: pagePosition, left: 0 });
 	body.removeAttribute('data-position');
   }
+
+/*wow.js init start */
+
+wow = new WOW(
+	{
+	boxClass:     'wow',      // default
+	animateClass: 'animated', // default
+	offset:       500,          // default
+	mobile:       false,       // default
+	live:         true        // default
+}
+)
+wow.init();
+
+/*wow.js init end */

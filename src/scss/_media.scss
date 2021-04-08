@@ -270,20 +270,27 @@
             justify-content: center;
             grid-area: lifestory-photography;
             grid-column-gap: 2%;
-            grid-template: auto auto auto 49px 169px 55px  / 1fr 1fr 1fr;
+            grid-template: auto auto auto auto auto 49px 169px 55px  / 1fr;
             grid-template-areas:
-            "service service service"
-            "photo1 photo2 photo3"
-            "work-time work-time work-time"
-            "cost cost cost"
-            "text text text"
-            "button button button";
+            "service"
+            "photo1"
+            "photo2"
+            "photo3"
+            "work-time"
+            "cost"
+            "text"
+            "button";
             padding-bottom: 60px;
 
             &-service {
                 line-height: 50px;
                 text-transform: none;
-        }
+            }
+
+            &-photo1,
+            &-photo2 {
+                padding-bottom: 20px;
+            }
         }
     }
 }

@@ -115,7 +115,7 @@ const fonts = () => {
 
 const images = () => {
   return src(['./src/img/**'])
-    .pipe(gulpif(isProd, image()))
+    /* .pipe(gulpif(isProd, image())) */
     .pipe(dest('./docs/img'))
 };
 

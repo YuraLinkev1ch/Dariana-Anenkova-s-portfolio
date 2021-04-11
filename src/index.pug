@@ -18,8 +18,8 @@ html(lang="ru")
         link(rel="stylesheet" href="css/style.css")
     body
         // background-image-fix-start
-        img.visually-hidden(src="./img/header-image.jpg")
-        img.visually-hidden(src="./img/header-image@2x.jpg")
+        img.visually-hidden(src="./img/header-image.jpg" alt)
+        img.visually-hidden(src="./img/header-image@2x.jpg" alt)
         // background-image-fix-end
         include pug-partials/header.pug
         main.main
@@ -98,12 +98,12 @@ html(lang="ru")
                                 use(xlink:href="img/sprite.svg#about-me-telegram")
                     .main-section__card.main-section3__card1
                         a(data-fslightbox="gallery" href="./img/main-section3__card-photo1.mp4")
-                            video.main-section__card-photo.main-section3__card1-photo(src="./img/main-section3__card-photo1.mp4", alt="photo" autoplay="true" loop="true" muted="true")
+                            video.main-section__card-photo.main-section3__card1-photo(src="./img/main-section3__card-photo1.mp4", autoplay loop muted)
                         h3.main-section__card-first-name.main-section3__card1-first-name Алёна и Амина
                         h3.main-section__card-location.main-section2__card3-location Днепр
                     .main-section__card.main-section3__card2
                         a(data-fslightbox="gallery" href="./img/main-section3__card-photo2.mp4")
-                            video.main-section__card-photo.main-section3__card2-photo(src="./img/main-section3__card-photo2.mp4", alt="photo" autoplay="true" loop="true" muted="true")
+                            video.main-section__card-photo.main-section3__card2-photo(src="./img/main-section3__card-photo2.mp4", autoplay loop muted)
                         h3.main-section__card-first-name.main-section3__card2-first-name Саша и Майя
                         h3.main-section__card-location.main-section3__card2-location Днепр
 
@@ -244,7 +244,7 @@ html(lang="ru")
                 h2.modal-form__title Запишитесь сегодня на  
                 span.modal-form__title-big-text фотосессию
                 input.modal-form__user-name(type="text" name="Имя" placeholder="Введите Ваше имя"  maxlength="30" required)
-                input.modal-form__user-mail(type="email" name="Почта" placeholder="Введите Вашу почту")
+                input.modal-form__user-mail(type="email" name="Почта" placeholder="Введите Вашу почту" required)
                 input.modal-form__user-tel(type="tel" name="Телефон" placeholder="+7 (___) ___-__-__" required)
                 button.modal-form__submit(type="submit") Записаться на фотосессию
                 span.modal-form__text Ваши данные конфиденциальны

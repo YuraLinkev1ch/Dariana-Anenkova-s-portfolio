@@ -809,7 +809,7 @@ body {
     position: fixed;
     left: 30px;
     bottom: 30px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     border-radius: 13px;
@@ -824,6 +824,7 @@ body {
     transition: opacity 0.5s, visibility 0.5s;
 
     &_active {
+        display: flex;
         opacity: 1;
         visibility: visible;
         transition: opacity 0.5s, visibility 0.5s;

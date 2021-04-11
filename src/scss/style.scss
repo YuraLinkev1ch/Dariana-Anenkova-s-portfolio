@@ -39,6 +39,10 @@ body {
     outline: 3px solid $red;
 }
 
+.wow {
+    visibility: hidden;
+  }
+
 /* hide google translation panel start */
 
 .skiptranslate {
@@ -281,7 +285,7 @@ body {
 .main-section3 {
     display: grid;
     grid-gap: 20px;
-    grid-template: auto / 365px 365px 365px;
+    grid-template: auto / 365px 355px 365px;
     grid-template-areas:
     "title title ."
     "about-me card1 card2";

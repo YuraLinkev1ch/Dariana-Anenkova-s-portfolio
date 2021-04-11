@@ -1,1 +1,1270 @@
-@font-face{src:url(../fonts/montserrat-regular.woff2) format("woff2"),url(../fonts/montserrat-regular.woff) format("woff");font-family:Montserrat;font-weight:400;font-style:normal;font-display:swap}@font-face{src:url(../fonts/montserrat-medium.woff2) format("woff2"),url(../fonts/montserrat-medium.woff) format("woff");font-family:Montserrat;font-weight:500;font-style:normal;font-display:swap}@font-face{src:url(../fonts/montserrat-semibold.woff2) format("woff2"),url(../fonts/montserrat-semibold.woff) format("woff");font-family:Montserrat;font-weight:600;font-style:normal;font-display:swap}@font-face{src:url(../fonts/montserrat-bold.woff2) format("woff2"),url(../fonts/montserrat-bold.woff) format("woff");font-family:Montserrat;font-weight:700;font-style:normal;font-display:swap}body{top:0!important;overflow-x:hidden;margin:0;padding:0;font-family:Montserrat,Arial,Helvetica,sans-serif;font-weight:400;font-size:14px}.container{margin:0 auto;max-width:1440px}:focus{outline:#c54a4a solid 3px}.skiptranslate{display:none;height:0}.goog-text-highlight{-webkit-box-shadow:none!important;box-shadow:none!important;-webkit-box-sizing:inherit!important;box-sizing:inherit!important;background-color:inherit!important}#goog-gt-tt{display:none!important}.container_header-top{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:0 auto;padding:0 15px;min-height:140px;max-width:1140px}.container_header-bottom{margin:0 auto;padding:0 15px;max-width:1140px}.header{margin:0 auto;min-height:900px;max-width:1440px;background:url(../img/header-image.jpg) top no-repeat}.header__logo{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-item-align:end;align-self:flex-end;margin-right:auto;margin-bottom:28px;text-decoration:none;color:#fff}.header__logo-top{padding-bottom:8px;font-weight:700;font-size:32px}.header__logo-bottom{font-weight:400;font-size:17px;line-height:25px}.header__phone{margin-right:92px;font-weight:400;font-style:normal;font-size:22px;line-height:27px;text-decoration:none;color:#fff}.header__translate-buttons{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;min-width:210px}.header__translate-button{border:0;padding:0;font-weight:500;font-size:22px;line-height:32px;text-transform:uppercase;color:#fff;background-color:transparent;cursor:pointer}.header__translate-button_active{font-weight:500;text-decoration:underline}.header__title{margin:0;padding-top:150px;padding-bottom:35px;max-width:753px;font-weight:700;font-style:normal;font-size:54px;line-height:72px;letter-spacing:4px;color:#fff}.header__text{padding-bottom:55px;max-width:590px;font-weight:400;font-style:normal;font-size:30px;line-height:42px;letter-spacing:2px;color:#fff}.button-subscribe{border:0;border-radius:5px;padding:0;min-width:270px;min-height:55px;font-weight:700;font-size:16px;line-height:19.5px;letter-spacing:.1em;text-transform:uppercase;color:#fff;background-color:#235350;-webkit-filter:drop-shadow(0 4px 4px rgba(0, 0, 0, .25));filter:drop-shadow(0 4px 4px rgba(0, 0, 0, .25));-webkit-animation:6s ease-in-out 6s infinite heartBeat;animation:6s ease-in-out 6s infinite heartBeat;cursor:pointer}.button-subscribe:hover{background-color:#032e2b;-webkit-transition:.3s;transition:.3s}@-webkit-keyframes heartBeat{0%,14%,35%{-webkit-transform:scale(1);transform:scale(1)}21%,7%{-webkit-transform:scale(1.1);transform:scale(1.1)}}@keyframes heartBeat{0%,14%,35%{-webkit-transform:scale(1);transform:scale(1)}21%,7%{-webkit-transform:scale(1.1);transform:scale(1.1)}}.main{margin:0 auto;max-width:1140px}.main-section{padding-top:120px}.main-section__title{margin:0;padding-bottom:45px;font-weight:700;font-style:normal;font-size:40px;line-height:62px;letter-spacing:3px;text-transform:uppercase;color:#000}.main-section__card{padding-bottom:55px;font-style:normal;font-size:18px;line-height:20px;color:#333}.main-section__card>a{display:contents}.main-section__card-photo{width:100%;-o-object-fit:cover;object-fit:cover}.main-section__card-first-name{margin:0;padding-top:17px;font-weight:400}.main-section__card-location{margin:0;padding-top:2px;font-weight:700}.main-section__block{padding-bottom:48px;font-weight:400;font-style:normal;color:#333}.main-section__block-title{margin:0;padding-bottom:17px;font-weight:400;font-size:30px;line-height:34px;letter-spacing:2px}.main-section__block-text{max-width:530px;font-size:18px;line-height:30px}.main-section1{display:grid;grid-column-gap:117px;grid-template:auto/560px 460px;grid-template-areas:"title card1" "card2 card1" "card2 block1" "card2 card3" "block2 card3" "button-subscribe card3"}.main-section1__title{grid-area:title}.main-section1__card1{grid-area:card1}.main-section1__block1{grid-area:block1}.main-section1__card2{grid-area:card2}.main-section1__block2{grid-area:block2}.main-section1__card3{grid-area:card3}.main-section1__button{grid-area:button-subscribe}.main-section2{display:grid;grid-template:auto auto auto auto 190px auto auto/368px 115px 97px 560px;grid-template-areas:"title . card1 card1" "block1 . card1 card1" "card2 . card1 card1" "card2 . . block2" "card2 . . card3" "block3 block3 . card3" "button-subscribe . . card3"}.main-section2__title{grid-area:title}.main-section2__card1{grid-area:card1}.main-section2__block1{grid-area:block1}.main-section2__card2{grid-area:card2;padding-bottom:0}.main-section2__block2{grid-area:block2;max-width:410px}.main-section2__card3{grid-area:card3;padding-bottom:0}.main-section2__block3{grid-area:block3}.main-section2__button{grid-area:button-subscribe}.main-section3{display:grid;grid-gap:20px;grid-template:auto/365px 365px 365px;grid-template-areas:"title title ." "about-me card1 card2"}.main-section3__title{grid-area:title;padding-bottom:27px;max-width:600px}.main-section3__about-me{grid-area:about-me;padding-bottom:88px}.main-section3__about-me-photo{padding-bottom:48px;width:200px;height:200px}.main-section3__about-me-title{margin:0;font-weight:400;font-style:normal;font-size:30px;line-height:40px;letter-spacing:2px}.main-section3__about-me-name{margin:0;padding-bottom:15px;font-weight:600;font-style:normal;font-size:30px;line-height:40px;letter-spacing:2px}.main-section3__about-me-text{margin:0;padding-bottom:26px;font-weight:400;font-style:normal;font-size:18px;line-height:25px;letter-spacing:1px;color:#333}.main-section3__about-me-text2{margin:0;padding-bottom:22px;font-weight:400;font-style:normal;font-size:18px;line-height:25px;letter-spacing:1px;color:#333}.main-section3__about-me-link{display:inline-block;margin-right:32px;width:25px;height:25px}.main-section3__about-me-svg{width:25px;height:25px}.main-section3__card1{grid-area:card1}.main-section3__card2{grid-area:card2}.main-section4{display:grid;grid-gap:20px;grid-template:auto/560px 558px;grid-template-areas:"block1 card1" "subscribe-button card1" "card2 card1";padding-top:0}.main-section4__block1{grid-area:block1;padding-bottom:35px}.main-section4__card1{grid-area:card1}.main-section4__card2{display:grid;grid-area:card2;grid-column-gap:20px;grid-template:401px 20px 261px/1fr 1fr;grid-template-areas:"photo1 photo1 photo1" ". . ." "photo2 photo3 photo4" "first-name first-name first-name" "location location location";padding-top:40px}.main-section4__card2-photo1{grid-area:photo1;padding-bottom:20px;height:100%}.main-section4__card2-photo2{grid-area:photo2;height:100%}.main-section4__card2-photo3{grid-area:photo3;height:100%}.main-section4__card2-photo4{grid-area:photo4;height:100%}.main-section4__card2-first-name{grid-area:first-name;height:100%}.main-section4__card2-location{grid-area:location}.main-section4__button{grid-area:subscribe-button}.main-section5{display:grid;grid-template:40px 123px 191px 215px 60px 109px 337px 99px 63px 30px 79px 247px 19px 60px 30px 101px 99px 433px 174px/367px 20px 76px 20px 77px 20px 173px 20px 367px;grid-template-areas:"title title  title  title  title  title  title . ." "title title  title  title  title  title  title . card3" ". . . . card2 card2 card2  . card3" "card1 card1 card1 . card2 card2 card2 . card3" "card1 card1 card1 . card2 card2 card2 . ." "card1 card1 card1 . . . . . ." "card1 card1 card1 . card4 card4 card4 card4 card4" ". . . . card4 card4 card4 card4 card4" "card5 . . . card4 card4 card4 card4 card4" "card5 . . . . . . . ." "card5 . . . . . . . card7" "card5 . card6 card6 card6 card6 card6 . card7" "card5 . card6 card6 card6 card6 card6 . ." "card5 . card6 card6 card6 card6 card6 . ." "card5 . . . . . . . ." "card5 . . . . . card9 card9 card9" ". . . . . . card9 card9 card9" "card8 card8 card8 card8 card8 . card9 card9 card9" ". . . . . . card9 card9 card9";padding-top:65px}.main-section5__title{grid-area:title;max-width:610px}.main-section5__card1{grid-area:card1}.main-section5__card2{grid-area:card2}.main-section5__card3{grid-area:card3}.main-section5__card4{grid-area:card4}.main-section5__card5{grid-area:card5}.main-section5__card6{grid-area:card6}.main-section5__card7{grid-area:card7}.main-section5__card8{grid-area:card8}.main-section5__card9{grid-area:card9}.main-section6{display:grid;grid-template-areas:"title" "block1" "gallery1" "block2" "gallery2" "button";padding-top:120px}.main-section6__title{grid-area:title;max-width:800px}.main-section6__block1{grid-area:block1}.main-section6__block1-title{line-height:45px}.main-section6__gallery1{display:grid;grid-area:gallery1;grid-column-gap:20px;grid-template:490px 20px 39px 20px 185px 20px 41px 20px 245px/1fr 1fr 1fr;grid-template-areas:"photo1 photo2 photo3" "...... photo2 photo3" "photo4 photo2 photo3" "photo4 ..... ......." "photo4 photo6 photo7" "...... photo6 photo7" "photo5 photo6 photo7" "photo5 photo6 ......" "photo5 photo6 photo8"}.main-section6__gallery1-photo1{grid-area:photo1;height:100%}.main-section6__gallery1-photo2{grid-area:photo2;height:100%}.main-section6__gallery1-photo3{grid-area:photo3;height:100%}.main-section6__gallery1-photo4{grid-area:photo4;height:100%}.main-section6__gallery1-photo5{grid-area:photo5;height:100%}.main-section6__gallery1-photo6{grid-area:photo6;height:100%}.main-section6__gallery1-photo7{grid-area:photo7;height:100%}.main-section6__gallery1-photo8{grid-area:photo8;height:100%}.main-section6__gallery2{display:grid;grid-area:gallery2;grid-column-gap:20px;grid-template:549px/1fr 1fr 1fr;grid-template-areas:"photo1 photo2 photo3"}.main-section6__gallery2-photo1{grid-area:photo1;height:100%}.main-section6__gallery2-photo2{grid-area:photo2;height:100%}.main-section6__gallery2-photo3{grid-area:photo3;height:100%}.main-section6__block2{grid-area:block2;padding-top:27px;padding-bottom:62px;max-width:900px}.main-section6__block2-title{line-height:45px}.main-section6__button{justify-self:center;grid-area:button}.main-section7{display:grid;grid-template:auto auto 558px 672px/auto;grid-template-areas:"title" "block1" "wedding-photography" "lifestory-photography";padding-top:120px}.main-section7__title{grid-area:title;max-width:1000px}.main-section7__block1{grid-area:block1}.main-section7__block1-title{line-height:45px}.main-section7__block1-text{max-width:550px}.main-section7__service{margin:0;font-weight:700;font-style:normal;font-size:40px;line-height:50px;letter-spacing:3px;color:#000}.main-section7__work-time{margin:0;font-weight:400;font-style:normal;font-size:30px;line-height:50px;letter-spacing:3px;color:#333}.main-section7__cost{margin:0;font-weight:700;font-style:normal;font-size:36px;line-height:50px;color:#000}.main-section7__text{margin:0;font-weight:400;font-style:normal;font-size:20px;line-height:30px;color:#333}.main-section7__wedding-photography{display:grid;grid-area:wedding-photography;grid-column-gap:22px;grid-template:120px 49px 45px 169px 55px/656px 460px;grid-template-areas:"photo service" "photo work-time" "photo cost" "photo text" "photo button";padding-bottom:120px}.main-section7__wedding-photography-photo{grid-area:photo}.main-section7__wedding-photography-service{grid-area:service;max-width:250px}.main-section7__wedding-photography-work-time{grid-area:work-time}.main-section7__wedding-photography-cost{grid-area:cost}.main-section7__wedding-photography-text{grid-area:text;max-width:250px}.main-section7__wedding-photography-button{grid-area:button}.main-section7__lifestory-photography{display:grid;grid-area:lifestory-photography;grid-template:278px 27px 25px 44px 123px 55px/369px 17px 366px 20px 367px;grid-template-areas:"service . photo1 . photo2" "work-time . . . photo2" "work-time . photo3 . photo2" "cost . photo3 . photo2" "text . photo3 . photo2" "button . photo3 . photo2";padding-bottom:120px}.main-section7__lifestory-photography-photo1{grid-area:photo1}.main-section7__lifestory-photography-photo2{grid-area:photo2}.main-section7__lifestory-photography-photo3{grid-area:photo3}.main-section7__lifestory-photography-service{grid-area:service;font-size:40px;line-height:60px;text-transform:uppercase}.main-section7__lifestory-photography-work-time{grid-area:work-time}.main-section7__lifestory-photography-cost{grid-area:cost}.main-section7__lifestory-photography-text{grid-area:text}.main-section7__lifestory-photography-button{grid-area:button}.main-section7__bold-text{font-weight:700}.footer{margin:0 auto;min-height:337px;max-width:1440px;background-color:#1a1f13}.footer__logo{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-item-align:start;align-self:flex-start;margin-right:72px;text-decoration:none;color:#fff}.footer__logo-top{padding-bottom:2px;font-weight:700;font-size:32px}.footer__logo-bottom{font-weight:400;font-size:17px;line-height:25px;letter-spacing:1px}.footer__contacts{display:grid;align-self:flex-start;grid-gap:20px 30px;grid-template:repeat(4,1fr)/repeat(3,25px) 1fr;grid-template-areas:"text text text text" "email email email email" "phone phone phone phone" "telegram viber whatsapp .";margin-right:auto;font-weight:400;font-style:normal;font-size:30px;line-height:37px}.footer__contacts-text{grid-area:text;margin:0;font-weight:700;color:#fff}.footer__contacts-email{grid-area:email;text-decoration:none;color:#fff}.footer__contacts-phone{grid-area:phone;text-decoration:none;color:#fff}.footer__contacts-link_telegram{grid-area:telegram}.footer__contacts-link_viber{grid-area:viber}.footer__contacts-link_whatsapp{grid-area:whatsapp}.footer__contacts-link{display:inline-block;width:25px;height:25px}.footer__contacts-svg{width:25px;height:25px}.footer__portfolio{display:grid;align-self:flex-start;grid-gap:20px;grid-template:repeat(2,1fr)/repeat(3,25px) 1fr;grid-template-areas:"text text text text" "instagram facebook vkontakte .";font-weight:400;font-style:normal;font-size:30px;line-height:37px}.footer__portfolio-text{grid-area:text;margin:0;font-weight:700;color:#fff}.footer__portfolio-link_instagram{grid-area:instagram}.footer__portfolio-link_facebook{grid-area:facebook}.footer__portfolio-link_vkontakte{grid-area:vkontakte}.footer__portfolio-link{display:inline-block;width:25px;height:25px}.footer__portfolio-svg{width:25px;height:25px}.footer__name{padding-top:40px;width:100%;font-weight:400;font-style:normal;font-size:18px;line-height:22px;color:#fff}.footer__name-author{color:#fff}.container_footer{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin:0 auto;padding:40px 15px 29px;max-width:1140px}.modal{--transition-time:0.3s;position:fixed;left:0;right:0;top:0;bottom:0;z-index:1000;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;width:100%;height:100%;background-color:rgba(35,83,80,.58);opacity:0;visibility:hidden;-webkit-transition:opacity var(--transition-time),visibility var(--transition-time);transition:opacity var(--transition-time),visibility var(--transition-time)}.modal::before{content:"";display:inline-block;vertical-align:middle;height:100%}.modal-form{position:relative;display:none;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border-radius:10px;padding:40px 50px;width:370px;min-height:442px;background-color:#fff}.modal-form__close{position:absolute;right:7px;top:7px;outline:0;border:none;font-weight:700;font-size:28px;color:#235350;background-color:#fff}.modal-form__close:focus{outline:#c54a4a solid 3px}.modal-form__close:hover{text-decoration:none;cursor:pointer}.modal-form__title{margin-top:-4px;margin-bottom:10px;font-weight:700;font-size:20px;text-align:center;color:#000}.modal-form__title-big-text{margin-bottom:30px;font-weight:700;font-size:24px;line-height:2;text-transform:uppercase;color:#000}.modal-form__user-mail,.modal-form__user-name,.modal-form__user-tel{margin-bottom:22px;border:1px solid #000;border-radius:10px;padding:6px 0;width:268px;font-size:15px;line-height:3.2;text-align:center;color:#000}.modal-form__user-mail::-webkit-input-placeholder,.modal-form__user-name::-webkit-input-placeholder,.modal-form__user-tel::-webkit-input-placeholder{font-size:15px;line-height:3.2;text-align:center;color:#333}.modal-form__user-mail::-moz-placeholder,.modal-form__user-name::-moz-placeholder,.modal-form__user-tel::-moz-placeholder{font-size:15px;line-height:3.2;text-align:center;color:#333}.modal-form__user-mail:-ms-input-placeholder,.modal-form__user-name:-ms-input-placeholder,.modal-form__user-tel:-ms-input-placeholder{font-size:15px;line-height:3.2;text-align:center;color:#333}.modal-form__user-mail::-ms-input-placeholder,.modal-form__user-name::-ms-input-placeholder,.modal-form__user-tel::-ms-input-placeholder{font-size:15px;line-height:3.2;text-align:center;color:#333}.modal-form__user-mail::placeholder,.modal-form__user-name::placeholder,.modal-form__user-tel::placeholder{font-size:15px;line-height:3.2;text-align:center;color:#333}.modal-form__user-mail:focus,.modal-form__user-name:focus,.modal-form__user-tel:focus{outline:#c54a4a solid 3px}.modal-form__submit{position:relative;vertical-align:middle;overflow:hidden;margin-bottom:19px;border:1px solid #235350;border-radius:10px;width:268px;min-height:78px;font-family:Arial,Helvetica,sans-serif;font-weight:700;font-size:20px;line-height:1.4;text-align:center;text-transform:uppercase;color:#fff;background:#235350}.modal-form__submit::before{content:"";position:absolute;left:0;top:0;width:2.2em;height:100%;background:rgba(255,255,255,.6);-webkit-transform:translateX(-4em) skewX(-45deg);transform:translateX(-4em) skewX(-45deg);-webkit-animation:5s linear infinite move-light;animation:5s linear infinite move-light}.modal-form__submit:focus{outline:#c54a4a solid 3px}.modal-form__text{font-weight:300;font-size:11px;color:#000}input:invalid,input:required{-webkit-box-shadow:none;box-shadow:none}@-webkit-keyframes move-light{0%{-webkit-transform:translateX(-4em) skewX(-45deg);transform:translateX(-4em) skewX(-45deg)}10%{-webkit-transform:translateX(13em) skewX(-45deg);transform:translateX(13em) skewX(-45deg)}100%,20%{-webkit-transform:translateX(100em) skewX(-45deg);transform:translateX(100em) skewX(-45deg)}}@keyframes move-light{0%{-webkit-transform:translateX(-4em) skewX(-45deg);transform:translateX(-4em) skewX(-45deg)}10%{-webkit-transform:translateX(13em) skewX(-45deg);transform:translateX(13em) skewX(-45deg)}100%,20%{-webkit-transform:translateX(100em) skewX(-45deg);transform:translateX(100em) skewX(-45deg)}}.is-open{opacity:1;visibility:visible;-webkit-transition:opacity var(--transition-time),visibility var(--transition-time);transition:opacity var(--transition-time),visibility var(--transition-time)}.modal-open{display:-webkit-box;display:-ms-flexbox;display:flex}.fade{opacity:0;-webkit-transition:opacity var(--transition-time);transition:opacity var(--transition-time)}.fade.animate-open{opacity:1;-webkit-transition:opacity var(--transition-time);transition:opacity var(--transition-time)}.fadeInUp{opacity:0;-webkit-transform:translateY(-100px);transform:translateY(-100px);-webkit-transition:opacity var(--transition-time),-webkit-transform var(--transition-time);transition:opacity var(--transition-time),-webkit-transform var(--transition-time);transition:opacity var(--transition-time),transform var(--transition-time);transition:opacity var(--transition-time),transform var(--transition-time),-webkit-transform var(--transition-time)}.fadeInUp.animate-open{opacity:1;-webkit-transform:translateY(0);transform:translateY(0);-webkit-transition:opacity var(--transition-time),-webkit-transform var(--transition-time);transition:opacity var(--transition-time),-webkit-transform var(--transition-time);transition:opacity var(--transition-time),transform var(--transition-time);transition:opacity var(--transition-time),transform var(--transition-time),-webkit-transform var(--transition-time)}.disable-scroll{position:fixed;left:0;top:0;overflow:hidden;width:100%;height:100vh;-webkit-box-sizing:border-box;box-sizing:border-box}@media (max-width:460px){.modal-form{width:200px;min-height:385px}.modal-form__title{width:170px}}.success-modal{position:fixed;left:30px;bottom:30px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;border-radius:13px;width:260px;min-height:80px;font-size:25px;text-align:center;color:#fff;background-color:rgba(35,83,80,.9);opacity:0;visibility:hidden;-webkit-transition:opacity .5s,visibility .5s;transition:opacity .5s,visibility .5s}.success-modal_active{opacity:1;visibility:visible;-webkit-transition:opacity .5s,visibility .5s;transition:opacity .5s,visibility .5s}.fslightbox-open{padding-right:17px}.js-focus-visible :focus:not(.focus-visible){outline:0}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){.header{background:url(../img/header-image@2x.jpg) center top/1140px 917px no-repeat}}@media (max-width:1000px){.container_header-top{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;padding:0}.header__logo{-ms-flex-item-align:center;align-self:center;margin:30px 0}.header__logo-bottom{text-align:center}.header__phone{margin:0 0 30px}.header__translate-buttons{margin-bottom:30px}.header__title{padding-top:90px;padding-bottom:90px;max-width:470px;font-size:25px;line-height:1;text-align:center}.header__text{padding-bottom:62px;max-width:340px;font-size:20px;line-height:1;text-align:center}.container_header-bottom{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center}}@media (max-width:1180px){.main-section{padding:60px 15px 0}.main-section__title{font-size:32px;line-height:45px;letter-spacing:1px;text-align:center}.main-section__button{text-align:center}.main-section1{display:grid;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;grid-template:auto/minmax(330px,500px);grid-template-areas:"title" "card1" "block1" "card2" "block2" "card3" "button-subscribe";padding-top:60px}.main-section2{display:grid;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;grid-template:auto/minmax(330px,500px);grid-template-areas:"title" "card1" "block1" "card2" "block2" "card3" "block3" "button-subscribe";padding-top:60px}.main-section2__card2,.main-section2__card3{padding-bottom:55px}.main-section3{display:grid;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;grid-template:auto/minmax(330px,500px);grid-template-areas:"title" "about-me" "card1" "card2";padding-top:60px}.main-section4{display:grid;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;grid-template:auto/minmax(330px,500px);grid-template-areas:"block1" "subscribe-button" "card1" "card2";padding-top:0}.main-section4__card1{padding-top:40px}.main-section4__card2{padding-top:0}.main-section5{display:grid;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;grid-column-gap:20px;grid-template:auto/1fr 1fr 1fr;grid-template-areas:"title title title" "card1 card2 card3" "card4 card4 card4" "card6 card6 card6" "card5 card7 card7" "card8 card8 card9";padding-top:60px}.main-section5__title{justify-self:center}.main-section6{display:grid;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;padding-top:60px}.main-section6__title{justify-self:center}.main-section6__block2{max-width:100%}.main-section6__gallery2{grid-template:250px/1fr 1fr 1fr;grid-template-areas:"photo1 photo2 photo3"}.main-section7{display:grid;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;grid-template:auto/minmax(330px,700px);grid-template-areas:"title" "block1" "wedding-photography" "lifestory-photography";padding-top:60px}.main-section7__title{justify-self:center}.main-section7__wedding-photography{display:grid;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;grid-area:wedding-photography;grid-template:120px auto 49px 45px 169px 55px/auto;grid-template-areas:"service" "photo" "work-time" "cost" "text" "button";padding-bottom:60px}.main-section7__lifestory-photography{display:grid;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;grid-area:lifestory-photography;grid-column-gap:2%;grid-template:auto auto auto auto auto 49px 169px 55px/1fr;grid-template-areas:"service" "photo1" "photo2" "photo3" "work-time" "cost" "text" "button";padding-bottom:60px}.main-section7__lifestory-photography-service{line-height:50px;text-transform:none}.main-section7__lifestory-photography-photo1,.main-section7__lifestory-photography-photo2{padding-bottom:20px}}@media (max-width:1000px){.container_footer{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.footer__logo{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-item-align:center;align-self:center;margin-right:0;margin-bottom:60px}.footer__logo-top{padding-bottom:2px;font-weight:700;font-size:32px}.footer__logo-bottom{font-weight:400;font-size:17px;line-height:25px;letter-spacing:1px}.footer__contacts{display:grid;align-self:center;grid-template:repeat(4,1fr)/1fr repeat(3,25px) 1fr;grid-template-areas:"text text text text text" "email email email email email" "phone phone phone phone phone" ". telegram viber whatsapp .";margin-right:0;margin-bottom:30px;text-align:center}.footer__portfolio{display:grid;align-self:center;grid-template:repeat(2,1fr)/1fr repeat(3,25px) 1fr;grid-template-areas:"text text text text text" ". instagram facebook vkontakte .";margin-bottom:30px}.footer__name{padding-top:40px;width:100%;font-weight:400;font-style:normal;font-size:18px;line-height:22px;text-align:center;color:#fff}}
+@font-face {
+  src: url("../fonts/montserrat-regular.woff2") format("woff2"), url("../fonts/montserrat-regular.woff") format("woff");
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  src: url("../fonts/montserrat-medium.woff2") format("woff2"), url("../fonts/montserrat-medium.woff") format("woff");
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  src: url("../fonts/montserrat-semibold.woff2") format("woff2"), url("../fonts/montserrat-semibold.woff") format("woff");
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  src: url("../fonts/montserrat-bold.woff2") format("woff2"), url("../fonts/montserrat-bold.woff") format("woff");
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+
+body {
+  /* hide google translation panel start */
+  top: 0 !important;
+  /* hide google translation panel end */
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Arial", "Helvetica", sans-serif;
+  font-weight: 400;
+  font-size: 14px; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px; }
+
+:focus {
+  outline: 3px solid #c54a4a; }
+
+/* hide google translation panel start */
+.skiptranslate {
+  display: none;
+  height: 0; }
+
+.goog-text-highlight {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-box-sizing: inherit !important;
+  box-sizing: inherit !important;
+  background-color: inherit !important; }
+
+#goog-gt-tt {
+  display: none !important; }
+
+/* hide google translation panel end */
+.button-subscribe {
+  border: 0;
+  border-radius: 5px;
+  padding: 0;
+  min-width: 270px;
+  min-height: 55px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFF;
+  background-color: #235350;
+  -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  -webkit-animation: heartBeat 6s ease-in-out infinite 6s;
+  animation: heartBeat 6s ease-in-out infinite 6s;
+  cursor: pointer; }
+  .button-subscribe:hover {
+    background-color: #032E2B;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+@-webkit-keyframes heartBeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  7% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  14% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  21% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  35% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+@keyframes heartBeat {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  7% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  14% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  21% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+  35% {
+    -webkit-transform: scale(1);
+    transform: scale(1); } }
+
+/* header-start */
+.container_header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 15px;
+  min-height: 140px;
+  max-width: 1140px; }
+
+.container_header-bottom {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1140px; }
+
+.header {
+  margin: 0 auto;
+  min-height: 900px;
+  max-width: 1440px;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .header__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    margin-right: auto;
+    margin-bottom: 28px;
+    text-decoration: none;
+    color: #FFF; }
+    .header__logo-top {
+      padding-bottom: 8px;
+      font-weight: 700;
+      font-size: 32px; }
+    .header__logo-bottom {
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 25px; }
+  .header__phone {
+    margin-right: 92px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #FFF; }
+  .header__translate-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    min-width: 210px; }
+  .header__translate-button {
+    border: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: transparent;
+    cursor: pointer; }
+    .header__translate-button_active {
+      font-weight: 500;
+      text-decoration: underline; }
+  .header__title {
+    margin: 0;
+    padding-top: 150px;
+    padding-bottom: 35px;
+    max-width: 753px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 54px;
+    line-height: 72px;
+    letter-spacing: 4px;
+    color: #FFF; }
+  .header__text {
+    padding-bottom: 55px;
+    max-width: 590px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 42px;
+    letter-spacing: 2px;
+    color: #FFF; }
+
+/* header-end */
+/* main-start */
+.main {
+  margin: 0 auto;
+  max-width: 1140px; }
+
+/* main-section1 start */
+.main-section {
+  padding-top: 120px; }
+  .main-section__title {
+    margin: 0;
+    padding-bottom: 45px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 62px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000; }
+  .main-section__card {
+    padding-bottom: 55px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 20px;
+    color: #333; }
+    .main-section__card > a {
+      display: contents; }
+    .main-section__card-photo {
+      width: 100%;
+      -o-object-fit: cover;
+      object-fit: cover; }
+    .main-section__card-first-name {
+      margin: 0;
+      padding-top: 17px;
+      font-weight: 400; }
+    .main-section__card-location {
+      margin: 0;
+      padding-top: 2px;
+      font-weight: 700; }
+  .main-section__block {
+    padding-bottom: 48px;
+    font-weight: 400;
+    font-style: normal;
+    color: #333; }
+    .main-section__block-title {
+      margin: 0;
+      padding-bottom: 17px;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 34px;
+      letter-spacing: 2px; }
+    .main-section__block-text {
+      max-width: 530px;
+      font-size: 18px;
+      line-height: 30px; }
+
+.main-section1 {
+  display: grid;
+  grid-column-gap: 117px;
+  grid-template: auto / 560px 460px;
+  grid-template-areas: "title card1" "card2 card1" "card2 block1" "card2 card3" "block2 card3" "button-subscribe card3"; }
+  .main-section1__title {
+    grid-area: title; }
+  .main-section1__card1 {
+    grid-area: card1; }
+  .main-section1__block1 {
+    grid-area: block1; }
+  .main-section1__card2 {
+    grid-area: card2; }
+  .main-section1__block2 {
+    grid-area: block2; }
+  .main-section1__card3 {
+    grid-area: card3; }
+  .main-section1__button {
+    grid-area: button-subscribe; }
+
+/* main-section1 end */
+/* main-section2 start */
+.main-section2 {
+  display: grid;
+  grid-template: auto auto auto auto 190px auto auto / 368px 115px 97px 560px;
+  grid-template-areas: "title . card1 card1" "block1 . card1 card1" "card2 . card1 card1" "card2 . . block2" "card2 . . card3" "block3 block3 . card3" "button-subscribe . . card3"; }
+  .main-section2__title {
+    grid-area: title; }
+  .main-section2__card1 {
+    grid-area: card1; }
+  .main-section2__block1 {
+    grid-area: block1; }
+  .main-section2__card2 {
+    grid-area: card2;
+    padding-bottom: 0; }
+  .main-section2__block2 {
+    grid-area: block2;
+    max-width: 410px; }
+  .main-section2__card3 {
+    grid-area: card3;
+    padding-bottom: 0; }
+  .main-section2__block3 {
+    grid-area: block3; }
+  .main-section2__button {
+    grid-area: button-subscribe; }
+
+/* main-section2 end */
+/* main-section3 start */
+.main-section3 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: auto / 365px 365px 365px;
+  grid-template-areas: "title title ." "about-me card1 card2"; }
+  .main-section3__title {
+    grid-area: title;
+    padding-bottom: 27px;
+    max-width: 600px; }
+  .main-section3__about-me {
+    grid-area: about-me;
+    padding-bottom: 88px; }
+    .main-section3__about-me-photo {
+      padding-bottom: 48px;
+      width: 200px;
+      height: 200px; }
+    .main-section3__about-me-title {
+      margin: 0;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 30px;
+      line-height: 40px;
+      letter-spacing: 2px; }
+    .main-section3__about-me-name {
+      margin: 0;
+      padding-bottom: 15px;
+      font-weight: 600;
+      font-style: normal;
+      font-size: 30px;
+      line-height: 40px;
+      letter-spacing: 2px; }
+    .main-section3__about-me-text {
+      margin: 0;
+      padding-bottom: 26px;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 1px;
+      color: #333; }
+    .main-section3__about-me-text2 {
+      margin: 0;
+      padding-bottom: 22px;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 25px;
+      letter-spacing: 1px;
+      color: #333; }
+    .main-section3__about-me-link {
+      display: inline-block;
+      margin-right: 32px;
+      width: 25px;
+      height: 25px; }
+    .main-section3__about-me-svg {
+      width: 25px;
+      height: 25px; }
+  .main-section3__card1 {
+    grid-area: card1; }
+  .main-section3__card2 {
+    grid-area: card2; }
+
+/* main-section3 end */
+/* main-section4 start */
+.main-section4 {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: auto / 560px 558px;
+  grid-template-areas: "block1 card1" "subscribe-button card1" "card2 card1";
+  padding-top: 0; }
+  .main-section4__block1 {
+    grid-area: block1;
+    padding-bottom: 35px; }
+  .main-section4__card1 {
+    grid-area: card1; }
+  .main-section4__card2 {
+    display: grid;
+    grid-area: card2;
+    grid-column-gap: 20px;
+    grid-template: 401px  20px 261px / 1fr 1fr;
+    grid-template-areas: "photo1 photo1 photo1" ". . ." "photo2 photo3 photo4" "first-name first-name first-name" "location location location";
+    padding-top: 40px; }
+    .main-section4__card2-photo1 {
+      grid-area: photo1;
+      padding-bottom: 20px;
+      height: 100%; }
+    .main-section4__card2-photo2 {
+      grid-area: photo2;
+      height: 100%; }
+    .main-section4__card2-photo3 {
+      grid-area: photo3;
+      height: 100%; }
+    .main-section4__card2-photo4 {
+      grid-area: photo4;
+      height: 100%; }
+    .main-section4__card2-first-name {
+      grid-area: first-name;
+      height: 100%; }
+    .main-section4__card2-location {
+      grid-area: location; }
+  .main-section4__button {
+    grid-area: subscribe-button; }
+
+/* main-section4 end */
+/* main-section5 start */
+.main-section5 {
+  display: grid;
+  grid-template: 40px 123px 191px 215px 60px 109px 337px 99px 63px 30px 79px 247px 19px 60px 30px 101px 99px 433px 174px / 367px 20px 76px 20px 77px 20px 173px 20px 367px;
+  grid-template-areas: "title title  title  title  title  title  title . ." "title title  title  title  title  title  title . card3" ". . . . card2 card2 card2  . card3" "card1 card1 card1 . card2 card2 card2 . card3" "card1 card1 card1 . card2 card2 card2 . ." "card1 card1 card1 . . . . . ." "card1 card1 card1 . card4 card4 card4 card4 card4" ". . . . card4 card4 card4 card4 card4" "card5 . . . card4 card4 card4 card4 card4" "card5 . . . . . . . ." "card5 . . . . . . . card7" "card5 . card6 card6 card6 card6 card6 . card7" "card5 . card6 card6 card6 card6 card6 . ." "card5 . card6 card6 card6 card6 card6 . ." "card5 . . . . . . . ." "card5 . . . . . card9 card9 card9" ". . . . . . card9 card9 card9" "card8 card8 card8 card8 card8 . card9 card9 card9" ". . . . . . card9 card9 card9";
+  padding-top: 65px; }
+  .main-section5__title {
+    grid-area: title;
+    max-width: 610px; }
+  .main-section5__card1 {
+    grid-area: card1; }
+  .main-section5__card2 {
+    grid-area: card2; }
+  .main-section5__card3 {
+    grid-area: card3; }
+  .main-section5__card4 {
+    grid-area: card4; }
+  .main-section5__card5 {
+    grid-area: card5; }
+  .main-section5__card6 {
+    grid-area: card6; }
+  .main-section5__card7 {
+    grid-area: card7; }
+  .main-section5__card8 {
+    grid-area: card8; }
+  .main-section5__card9 {
+    grid-area: card9; }
+
+/* main-section5 end */
+/* main-section6 start */
+.main-section6 {
+  display: grid;
+  grid-template-areas: "title" "block1" "gallery1" "block2" "gallery2" "button";
+  padding-top: 120px; }
+  .main-section6__title {
+    grid-area: title;
+    max-width: 800px; }
+  .main-section6__block1 {
+    grid-area: block1; }
+    .main-section6__block1-title {
+      line-height: 45px; }
+  .main-section6__gallery1 {
+    display: grid;
+    grid-area: gallery1;
+    grid-column-gap: 20px;
+    grid-template: 490px 20px 39px 20px 185px 20px 41px 20px 245px / 1fr 1fr 1fr;
+    grid-template-areas: "photo1 photo2 photo3" "...... photo2 photo3" "photo4 photo2 photo3" "photo4 ..... ......." "photo4 photo6 photo7" "...... photo6 photo7" "photo5 photo6 photo7" "photo5 photo6 ......" "photo5 photo6 photo8"; }
+    .main-section6__gallery1-photo1 {
+      grid-area: photo1;
+      height: 100%; }
+    .main-section6__gallery1-photo2 {
+      grid-area: photo2;
+      height: 100%; }
+    .main-section6__gallery1-photo3 {
+      grid-area: photo3;
+      height: 100%; }
+    .main-section6__gallery1-photo4 {
+      grid-area: photo4;
+      height: 100%; }
+    .main-section6__gallery1-photo5 {
+      grid-area: photo5;
+      height: 100%; }
+    .main-section6__gallery1-photo6 {
+      grid-area: photo6;
+      height: 100%; }
+    .main-section6__gallery1-photo7 {
+      grid-area: photo7;
+      height: 100%; }
+    .main-section6__gallery1-photo8 {
+      grid-area: photo8;
+      height: 100%; }
+  .main-section6__gallery2 {
+    display: grid;
+    grid-area: gallery2;
+    grid-column-gap: 20px;
+    grid-template: 549px / 1fr 1fr 1fr;
+    grid-template-areas: "photo1 photo2 photo3"; }
+    .main-section6__gallery2-photo1 {
+      grid-area: photo1;
+      height: 100%; }
+    .main-section6__gallery2-photo2 {
+      grid-area: photo2;
+      height: 100%; }
+    .main-section6__gallery2-photo3 {
+      grid-area: photo3;
+      height: 100%; }
+  .main-section6__block2 {
+    grid-area: block2;
+    padding-top: 27px;
+    padding-bottom: 62px;
+    max-width: 900px; }
+    .main-section6__block2-title {
+      line-height: 45px; }
+  .main-section6__button {
+    justify-self: center;
+    grid-area: button; }
+
+/* main-section6 end */
+/* main-section7 start */
+.main-section7 {
+  display: grid;
+  grid-template: auto auto 558px 672px / auto;
+  grid-template-areas: "title" "block1" "wedding-photography" "lifestory-photography";
+  padding-top: 120px; }
+  .main-section7__title {
+    grid-area: title;
+    max-width: 1000px; }
+  .main-section7__block1 {
+    grid-area: block1; }
+    .main-section7__block1-title {
+      line-height: 45px; }
+    .main-section7__block1-text {
+      max-width: 550px; }
+  .main-section7__service {
+    margin: 0;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 3px;
+    color: #000; }
+  .main-section7__work-time {
+    margin: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: 3px;
+    color: #333; }
+  .main-section7__cost {
+    margin: 0;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000; }
+  .main-section7__text {
+    margin: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333; }
+  .main-section7__wedding-photography {
+    display: grid;
+    grid-area: wedding-photography;
+    grid-column-gap: 22px;
+    grid-template: 120px 49px 45px 169px 55px / 656px 460px;
+    grid-template-areas: "photo service" "photo work-time" "photo cost" "photo text" "photo button";
+    padding-bottom: 120px; }
+    .main-section7__wedding-photography-photo {
+      grid-area: photo; }
+    .main-section7__wedding-photography-service {
+      grid-area: service;
+      max-width: 250px; }
+    .main-section7__wedding-photography-work-time {
+      grid-area: work-time; }
+    .main-section7__wedding-photography-cost {
+      grid-area: cost; }
+    .main-section7__wedding-photography-text {
+      grid-area: text;
+      max-width: 250px; }
+    .main-section7__wedding-photography-button {
+      grid-area: button; }
+  .main-section7__lifestory-photography {
+    display: grid;
+    grid-area: lifestory-photography;
+    grid-template: 278px 27px 25px 44px 123px 55px / 369px 17px 366px 20px 367px;
+    grid-template-areas: "service . photo1 . photo2" "work-time . . . photo2" "work-time . photo3 . photo2" "cost . photo3 . photo2" "text . photo3 . photo2" "button . photo3 . photo2";
+    padding-bottom: 120px; }
+    .main-section7__lifestory-photography-photo1 {
+      grid-area: photo1; }
+    .main-section7__lifestory-photography-photo2 {
+      grid-area: photo2; }
+    .main-section7__lifestory-photography-photo3 {
+      grid-area: photo3; }
+    .main-section7__lifestory-photography-service {
+      grid-area: service;
+      font-size: 40px;
+      line-height: 60px;
+      text-transform: uppercase; }
+    .main-section7__lifestory-photography-work-time {
+      grid-area: work-time; }
+    .main-section7__lifestory-photography-cost {
+      grid-area: cost; }
+    .main-section7__lifestory-photography-text {
+      grid-area: text; }
+    .main-section7__lifestory-photography-button {
+      grid-area: button; }
+  .main-section7__bold-text {
+    font-weight: 700; }
+
+/* main-section7 end */
+/* main-end */
+.footer {
+  margin: 0 auto;
+  min-height: 337px;
+  max-width: 1440px;
+  background-color: #1A1F13; }
+  .footer__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    margin-right: 72px;
+    text-decoration: none;
+    color: #FFF; }
+    .footer__logo-top {
+      padding-bottom: 2px;
+      font-weight: 700;
+      font-size: 32px; }
+    .footer__logo-bottom {
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 25px;
+      letter-spacing: 1px; }
+  .footer__contacts {
+    display: grid;
+    align-self: flex-start;
+    grid-gap: 20px 30px;
+    grid-template: repeat(4, 1fr)/repeat(3, 25px) 1fr;
+    grid-template-areas: "text text text text" "email email email email" "phone phone phone phone" "telegram viber whatsapp .";
+    margin-right: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 37px; }
+    .footer__contacts-text {
+      grid-area: text;
+      margin: 0;
+      font-weight: 700;
+      color: #FFF; }
+    .footer__contacts-email {
+      grid-area: email;
+      text-decoration: none;
+      color: #FFF; }
+    .footer__contacts-phone {
+      grid-area: phone;
+      text-decoration: none;
+      color: #FFF; }
+    .footer__contacts-link_telegram {
+      grid-area: telegram; }
+    .footer__contacts-link_viber {
+      grid-area: viber; }
+    .footer__contacts-link_whatsapp {
+      grid-area: whatsapp; }
+    .footer__contacts-link {
+      display: inline-block;
+      width: 25px;
+      height: 25px; }
+    .footer__contacts-svg {
+      width: 25px;
+      height: 25px; }
+  .footer__portfolio {
+    display: grid;
+    align-self: flex-start;
+    grid-gap: 20px;
+    grid-template: repeat(2, 1fr)/repeat(3, 25px) 1fr;
+    grid-template-areas: "text text text text" "instagram facebook vkontakte .";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 37px; }
+    .footer__portfolio-text {
+      grid-area: text;
+      margin: 0;
+      font-weight: 700;
+      color: #FFF; }
+    .footer__portfolio-link_instagram {
+      grid-area: instagram; }
+    .footer__portfolio-link_facebook {
+      grid-area: facebook; }
+    .footer__portfolio-link_vkontakte {
+      grid-area: vkontakte; }
+    .footer__portfolio-link {
+      display: inline-block;
+      width: 25px;
+      height: 25px; }
+    .footer__portfolio-svg {
+      width: 25px;
+      height: 25px; }
+  .footer__name {
+    padding-top: 40px;
+    width: 100%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFF; }
+    .footer__name-author {
+      color: #FFF; }
+
+.container_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 40px 15px 29px;
+  max-width: 1140px; }
+
+/* modals-window-start */
+.modal {
+  --transition-time: 0.3s;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(35, 83, 80, 0.58);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity var(--transition-time), visibility var(--transition-time);
+  transition: opacity var(--transition-time), visibility var(--transition-time); }
+  .modal::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%; }
+  .modal-form {
+    position: relative;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 40px 50px;
+    width: 370px;
+    min-height: 442px;
+    background-color: #FFF; }
+    .modal-form__close {
+      position: absolute;
+      right: 7px;
+      top: 7px;
+      outline: none;
+      border: none;
+      font-weight: 700;
+      font-size: 28px;
+      color: #235350;
+      background-color: #FFF; }
+      .modal-form__close:focus {
+        outline: 3px solid #c54a4a; }
+      .modal-form__close:hover {
+        text-decoration: none;
+        cursor: pointer; }
+    .modal-form__title {
+      margin-top: -4px;
+      margin-bottom: 10px;
+      font-weight: 700;
+      font-size: 20px;
+      text-align: center;
+      color: #000; }
+    .modal-form__title-big-text {
+      margin-bottom: 30px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 2;
+      text-transform: uppercase;
+      color: #000; }
+    .modal-form__user-name, .modal-form__user-mail, .modal-form__user-tel {
+      margin-bottom: 22px;
+      border: 1px solid #000;
+      border-radius: 10px;
+      padding: 6px 0;
+      width: 268px;
+      font-size: 15px;
+      line-height: 3.2;
+      text-align: center;
+      color: #000; }
+      .modal-form__user-name::-webkit-input-placeholder, .modal-form__user-mail::-webkit-input-placeholder, .modal-form__user-tel::-webkit-input-placeholder {
+        font-size: 15px;
+        line-height: 3.2;
+        text-align: center;
+        color: #333; }
+      .modal-form__user-name::-moz-placeholder, .modal-form__user-mail::-moz-placeholder, .modal-form__user-tel::-moz-placeholder {
+        font-size: 15px;
+        line-height: 3.2;
+        text-align: center;
+        color: #333; }
+      .modal-form__user-name:-ms-input-placeholder, .modal-form__user-mail:-ms-input-placeholder, .modal-form__user-tel:-ms-input-placeholder {
+        font-size: 15px;
+        line-height: 3.2;
+        text-align: center;
+        color: #333; }
+      .modal-form__user-name::-ms-input-placeholder, .modal-form__user-mail::-ms-input-placeholder, .modal-form__user-tel::-ms-input-placeholder {
+        font-size: 15px;
+        line-height: 3.2;
+        text-align: center;
+        color: #333; }
+      .modal-form__user-name::placeholder, .modal-form__user-mail::placeholder, .modal-form__user-tel::placeholder {
+        font-size: 15px;
+        line-height: 3.2;
+        text-align: center;
+        color: #333; }
+      .modal-form__user-name:focus, .modal-form__user-mail:focus, .modal-form__user-tel:focus {
+        outline: 3px solid #c54a4a; }
+    .modal-form__submit {
+      position: relative;
+      vertical-align: middle;
+      overflow: hidden;
+      margin-bottom: 19px;
+      border: 1px solid #235350;
+      border-radius: 10px;
+      width: 268px;
+      min-height: 78px;
+      font-family: "Arial", "Helvetica", sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 1.4;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFF;
+      background: #235350; }
+      .modal-form__submit::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 2.2em;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6);
+        -webkit-transform: translateX(-4em) skewX(-45deg);
+        transform: translateX(-4em) skewX(-45deg);
+        -webkit-animation: 5s linear 0s infinite normal none running;
+        animation: 5s linear 0s infinite normal none running;
+        -webkit-animation-name: move-light;
+        animation-name: move-light; }
+      .modal-form__submit:focus {
+        outline: 3px solid #c54a4a; }
+    .modal-form__text {
+      font-weight: 300;
+      font-size: 11px;
+      color: #000; }
+
+/* outline fix for mozilla */
+input:invalid,
+input:required {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+@-webkit-keyframes move-light {
+  0% {
+    -webkit-transform: translateX(-4em) skewX(-45deg);
+    transform: translateX(-4em) skewX(-45deg); }
+  10% {
+    -webkit-transform: translateX(13em) skewX(-45deg);
+    transform: translateX(13em) skewX(-45deg); }
+  20% {
+    -webkit-transform: translateX(100em) skewX(-45deg);
+    transform: translateX(100em) skewX(-45deg); }
+  100% {
+    -webkit-transform: translateX(100em) skewX(-45deg);
+    transform: translateX(100em) skewX(-45deg); } }
+
+@keyframes move-light {
+  0% {
+    -webkit-transform: translateX(-4em) skewX(-45deg);
+    transform: translateX(-4em) skewX(-45deg); }
+  10% {
+    -webkit-transform: translateX(13em) skewX(-45deg);
+    transform: translateX(13em) skewX(-45deg); }
+  20% {
+    -webkit-transform: translateX(100em) skewX(-45deg);
+    transform: translateX(100em) skewX(-45deg); }
+  100% {
+    -webkit-transform: translateX(100em) skewX(-45deg);
+    transform: translateX(100em) skewX(-45deg); } }
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: opacity var(--transition-time), visibility var(--transition-time);
+  transition: opacity var(--transition-time), visibility var(--transition-time); }
+
+.modal-open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity var(--transition-time);
+  transition: opacity var(--transition-time); }
+
+.fade.animate-open {
+  opacity: 1;
+  -webkit-transition: opacity var(--transition-time);
+  transition: opacity var(--transition-time); }
+
+.fadeInUp {
+  opacity: 0;
+  -webkit-transform: translateY(-100px);
+  transform: translateY(-100px);
+  -webkit-transition: opacity var(--transition-time), -webkit-transform var(--transition-time);
+  transition: opacity var(--transition-time), -webkit-transform var(--transition-time);
+  transition: opacity var(--transition-time), transform var(--transition-time);
+  transition: opacity var(--transition-time), transform var(--transition-time), -webkit-transform var(--transition-time); }
+
+.fadeInUp.animate-open {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity var(--transition-time), -webkit-transform var(--transition-time);
+  transition: opacity var(--transition-time), -webkit-transform var(--transition-time);
+  transition: opacity var(--transition-time), transform var(--transition-time);
+  transition: opacity var(--transition-time), transform var(--transition-time), -webkit-transform var(--transition-time); }
+
+.disable-scroll {
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media (max-width: 460px) {
+  .modal-form {
+    width: 200px;
+    min-height: 385px; }
+  .modal-form__title {
+    width: 170px; } }
+
+/* modals-window-end */
+/* success-modal-start */
+.success-modal {
+  position: fixed;
+  left: 30px;
+  bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 13px;
+  width: 260px;
+  min-height: 80px;
+  font-size: 25px;
+  text-align: center;
+  color: #FFF;
+  background-color: rgba(35, 83, 80, 0.9);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s, visibility 0.5s;
+  transition: opacity 0.5s, visibility 0.5s; }
+  .success-modal_active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.5s, visibility 0.5s;
+    transition: opacity 0.5s, visibility 0.5s; }
+
+/* success-modal-end */
+/* fix for fslightbox start */
+.fslightbox-open {
+  padding-right: 17px; }
+
+/* fix for fslightbox end */
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none; }
+
+/* images-for-retina-start */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .header {
+    background: url("../img/header-image@2x.jpg") center top no-repeat;
+    background-size: 1140px 917px; } }
+
+/* images-for-retina-end */
+/* header-start */
+@media (max-width: 1000px) {
+  .container_header-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0; }
+  .header__logo {
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin: 30px 0; }
+    .header__logo-bottom {
+      text-align: center; }
+  .header__phone {
+    margin: 0;
+    margin-bottom: 30px; }
+  .header__translate-buttons {
+    margin-bottom: 30px; }
+  .header__title {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    max-width: 470px;
+    font-size: 25px;
+    line-height: 1;
+    text-align: center; }
+  .header__text {
+    padding-bottom: 62px;
+    max-width: 340px;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center; }
+  .container_header-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; } }
+
+/* header-end */
+/* main-start */
+/* main-section start */
+@media (max-width: 1180px) {
+  .main-section {
+    padding: 0 15px;
+    padding-top: 60px; }
+    .main-section__title {
+      font-size: 32px;
+      line-height: 45px;
+      letter-spacing: 1px;
+      text-align: center; }
+    .main-section__button {
+      text-align: center; } }
+
+/* main-section end */
+/* main-section1 start */
+@media (max-width: 1180px) {
+  .main-section1 {
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-template: auto/minmax(330px, 500px);
+    grid-template-areas: "title" "card1" "block1" "card2" "block2" "card3" "button-subscribe";
+    padding-top: 60px; } }
+
+/* main-section1 end */
+/* main-section2 start */
+@media (max-width: 1180px) {
+  .main-section2 {
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-template: auto/minmax(330px, 500px);
+    grid-template-areas: "title" "card1" "block1" "card2" "block2" "card3" "block3" "button-subscribe";
+    padding-top: 60px; }
+    .main-section2__card2, .main-section2__card3 {
+      padding-bottom: 55px; } }
+
+/* main-section2 end */
+/* main-section3 start */
+@media (max-width: 1180px) {
+  .main-section3 {
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-template: auto/minmax(330px, 500px);
+    grid-template-areas: "title" "about-me" "card1" "card2";
+    padding-top: 60px; } }
+
+/* main-section3 end */
+/* main-section4 start */
+@media (max-width: 1180px) {
+  .main-section4 {
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-template: auto/minmax(330px, 500px);
+    grid-template-areas: "block1" "subscribe-button" "card1" "card2";
+    padding-top: 0; }
+    .main-section4__card1 {
+      padding-top: 40px; }
+    .main-section4__card2 {
+      padding-top: 0; } }
+
+/* main-section4 end */
+/* main-section5 start */
+@media (max-width: 1180px) {
+  .main-section5 {
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-template: auto / 1fr 1fr 1fr;
+    grid-template-areas: "title title title" "card1 card2 card3" "card4 card4 card4" "card6 card6 card6" "card5 card7 card7" "card8 card8 card9";
+    padding-top: 60px; }
+    .main-section5__title {
+      justify-self: center; } }
+
+/* main-section5 end */
+/* main-section6 start */
+@media (max-width: 1180px) {
+  .main-section6 {
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-top: 60px; }
+    .main-section6__title {
+      justify-self: center; }
+    .main-section6__block2 {
+      max-width: 100%; }
+    .main-section6__gallery2 {
+      grid-template: 250px / 1fr 1fr 1fr;
+      grid-template-areas: "photo1 photo2 photo3"; } }
+
+/* main-section6 end */
+/* main-section7 start */
+@media (max-width: 1180px) {
+  .main-section7 {
+    display: grid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-template: auto/minmax(330px, 700px);
+    grid-template-areas: "title" "block1" "wedding-photography" "lifestory-photography";
+    padding-top: 60px; }
+    .main-section7__title {
+      justify-self: center; }
+    .main-section7__wedding-photography {
+      display: grid;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      grid-area: wedding-photography;
+      grid-template: 120px auto 49px 45px 169px 55px / auto;
+      grid-template-areas: "service" "photo" "work-time" "cost" "text" "button";
+      padding-bottom: 60px; }
+    .main-section7__lifestory-photography {
+      display: grid;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      grid-area: lifestory-photography;
+      grid-column-gap: 2%;
+      grid-template: auto auto auto auto auto 49px 169px 55px  / 1fr;
+      grid-template-areas: "service" "photo1" "photo2" "photo3" "work-time" "cost" "text" "button";
+      padding-bottom: 60px; }
+      .main-section7__lifestory-photography-service {
+        line-height: 50px;
+        text-transform: none; }
+      .main-section7__lifestory-photography-photo1, .main-section7__lifestory-photography-photo2 {
+        padding-bottom: 20px; } }
+
+/* main-section7 end */
+/* main-end */
+/* footer-start */
+@media (max-width: 1000px) {
+  .container_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .footer__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-right: 0;
+    margin-bottom: 60px; }
+    .footer__logo-top {
+      padding-bottom: 2px;
+      font-weight: 700;
+      font-size: 32px; }
+    .footer__logo-bottom {
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 25px;
+      letter-spacing: 1px; }
+  .footer__contacts {
+    display: grid;
+    align-self: center;
+    grid-template: repeat(4, 1fr)/1fr repeat(3, 25px) 1fr;
+    grid-template-areas: "text text text text text" "email email email email email" "phone phone phone phone phone" ". telegram viber whatsapp .";
+    margin-right: 0;
+    margin-bottom: 30px;
+    text-align: center; }
+  .footer__portfolio {
+    display: grid;
+    align-self: center;
+    grid-template: repeat(2, 1fr)/1fr repeat(3, 25px) 1fr;
+    grid-template-areas: "text text text text text" ". instagram facebook vkontakte .";
+    margin-bottom: 30px; }
+  .footer__name {
+    padding-top: 40px;
+    width: 100%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFF; } }
+
+/* footer-end */
+
+/*# sourceMappingURL=style.css.map */

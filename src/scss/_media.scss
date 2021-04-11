@@ -54,6 +54,10 @@
             font-size: 20px;
             line-height: 1;
             text-align: center;
+
+            & > br {
+                display: inline;
+            }
         }
     }
 

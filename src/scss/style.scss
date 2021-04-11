@@ -52,8 +52,20 @@ body {
 /* hide google translation panel end */
 
 .button-subscribe {
+    --notchSize: 7px;
+
+    clip-path:
+        polygon(
+        0% var(--notchSize),
+        var(--notchSize) 0%,
+        calc(100% - var(--notchSize)) 0%,
+        100% var(--notchSize),
+        100% calc(100% - var(--notchSize)),
+        calc(100% - var(--notchSize)) 100%,
+        var(--notchSize) 100%,
+        0% calc(100% - var(--notchSize))
+        );
     border: 0;
-    border-radius: 5px;
     padding: 0;
     min-width: 270px;
     min-height: 55px;

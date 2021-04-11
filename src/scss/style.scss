@@ -20,28 +20,17 @@ body {
     max-width: 1440px;
 }
 
-/* background image fix start */
+/* loading button fix start */
 
-.visually-hidden {
-	position: absolute !important;
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-	clip: rect(1px, 1px, 1px, 1px);
-	padding:0 !important;
-	border:0 !important;
-	height: 1px !important; 
-	width: 1px !important; 
-	overflow: hidden;
+.wow {
+    visibility: hidden;
 }
 
-/* background image fix end */
+/* loading button fix end */
 
 :focus {
     outline: 3px solid $red;
 }
-
-.wow {
-    visibility: hidden;
-  }
 
 /* hide google translation panel start */
 
@@ -841,6 +830,12 @@ body {
 
 .fslightbox-open {
     margin-right: 17px;
+}
+
+@media (max-width: 700px) {
+    .fslightbox-open {
+        margin-right: 0;
+    }
 }
 
 /* fix for fslightbox end */

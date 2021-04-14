@@ -4,13 +4,18 @@
     (min-resolution: 192dpi) {
         .header {
             background: url("../img/header-image@2x.jpg") center top no-repeat;
-            background-size: 1140px 917px;
             }
 }
 
 /* images-for-retina-end */
 
 /* header-start */
+
+@media (max-width: 1400px) {
+    .header {
+        min-height: 900px;
+    }
+}
 
 @media (max-width: 1000px) {
     .container_header-top {

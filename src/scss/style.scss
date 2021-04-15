@@ -154,12 +154,16 @@ body {
             margin: 0;
             padding-top: 17px;
             font-weight: 400;
+            font-size: 18px;
+            letter-spacing: 1px;
         }
 
         &-location {
             margin: 0;
             padding-top: 2px;
             font-weight: 700;
+            font-size: 18px;
+            letter-spacing: 1px;
         }
     }
 
@@ -665,6 +669,7 @@ body {
         }
 
         &-text {
+            margin: 0;
             max-width: 550px;
         }
     }

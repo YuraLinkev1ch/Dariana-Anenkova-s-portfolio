@@ -52,19 +52,7 @@ body {
 /* hide google translation panel end */
 
 .button-subscribe {
-    --notchSize: 7px;
-
-    clip-path:
-        polygon(
-        0% var(--notchSize),
-        var(--notchSize) 0%,
-        calc(100% - var(--notchSize)) 0%,
-        100% var(--notchSize),
-        100% calc(100% - var(--notchSize)),
-        calc(100% - var(--notchSize)) 100%,
-        var(--notchSize) 100%,
-        0% calc(100% - var(--notchSize))
-        );
+    position: relative;
     border: 0;
     padding: 0;
     min-width: 270px;
@@ -75,14 +63,37 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: $white-main;
-    background-color: $green-main;
+    background-color: transparent;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
     animation: heartBeat 6s ease-in-out infinite 6s;
     cursor: pointer;
 
-    &:hover {
-        background-color: #032E2B;
-        transition: 0.3s;
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+        --notchSize: 7px;
+        clip-path:
+            polygon(
+            0% var(--notchSize),
+            var(--notchSize) 0%,
+            calc(100% - var(--notchSize)) 0%,
+            100% var(--notchSize),
+            100% calc(100% - var(--notchSize)),
+            calc(100% - var(--notchSize)) 100%,
+            var(--notchSize) 100%,
+            0% calc(100% - var(--notchSize))
+            );
+        background-color: $green-main;
+
+            &:hover {
+                background-color: #032E2B;
+                transition: 0.3s;
+            }
     }
 }
 
@@ -92,7 +103,7 @@ body {
     }
 
     7% {
-        transform: scale(1.1);
+        transform: scale(1.02);
     }
 
     14% {
@@ -100,7 +111,7 @@ body {
     }
 
     21% {
-        transform: scale(1.1);
+        transform: scale(1.02);
     }
 
     35% {
